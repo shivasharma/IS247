@@ -10,8 +10,9 @@ public class StringBuilder {
         buffer.append("java");
         System.out.println(buffer);
 
-        // StringBuilder builder=new StringBuilder("hello");
+        //StringBuilder builder=new StringBuilder("hello");
         // builder.append("java");
-        // System.out.println(builder);
+        //  System.out.println(builder);
     }
 }
+    
