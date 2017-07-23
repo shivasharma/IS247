@@ -21,8 +21,7 @@ public class JavaCustomExceptionExample {
  * Our test class to demonstrate our custom exception.
  */
 class Foo {
-    public String getBar(int i)
-            throws AlsCustomException {
+    public String getBar(int i) throws AlsCustomException {
         if (i == 0) {
             throw new AlsCustomException("Anything but zero ...");
         } else {
