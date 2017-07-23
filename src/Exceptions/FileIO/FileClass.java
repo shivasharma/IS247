@@ -20,10 +20,10 @@ public class FileClass {
         System.out.println("Absolute path is " + file.getAbsolutePath());
         System.out.println("Last modified on " + new Date(file.lastModified()));
 
-        File realtiveFile = new File("relativepath.txt");
+        File relativeFile = new File("relativepath.txt");
 
-        System.out.println("Relative Path " + realtiveFile.getPath());
-        System.out.println("Relative file " + realtiveFile.isAbsolute());
+        System.out.println("Relative Path " + relativeFile.getPath());
+        System.out.println("Relative file " + relativeFile.isAbsolute());
 
     }
 }
