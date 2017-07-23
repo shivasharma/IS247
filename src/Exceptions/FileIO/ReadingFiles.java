@@ -2,6 +2,7 @@ package Exceptions.FileIO;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
@@ -24,11 +25,16 @@ public class ReadingFiles {
         while (sc.hasNextLine()) {
             System.out.println(sc.nextLine());
         }
+        try {
+            FileReader fr = new FileReader("C:\\temp\\java1.txt");
 
-        FileReader fr = new FileReader("C:\\temp\\java.txt");
-        int i;
-        while ((i = fr.read()) != -1) {
-            System.out.print((char) i);
+            int i;
+            while ((i = fr.read()) != -1) {
+                System.out.print((char) i);
+            }
+        } catch (FileNotFoundException ex) {
+            System.out.println("File does not exist");
+
         }
     }
 
