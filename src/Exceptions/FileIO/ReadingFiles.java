@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * Created by Shiva on 7/23/2017.
  */
-public class RadingFiles {
+public class ReadingFiles {
     public static void main(String[] args) throws Exception {
         //Reading file using BufferReader class
         File file = new File("C:\\temp\\\\\\java.txt");
