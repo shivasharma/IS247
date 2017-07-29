@@ -16,7 +16,15 @@ public class StringBuilderEg {
         builder.append("java");
         System.out.println(builder);
 
+        builder.reverse();
+        System.out.println(builder);
 
+
+        // conversion from StringBuilder object to String
+        String str1 = builder.toString();
+        System.out.println(str1);
     }
+
+
 }
     
