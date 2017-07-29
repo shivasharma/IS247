@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Inheritance;
 
 /**
  * Created by Shiva on 7/28/2017.
