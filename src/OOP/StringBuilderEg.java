@@ -15,6 +15,8 @@ public class StringBuilderEg {
         StringBuilder builder = new StringBuilder("hello");
         builder.append("java");
         System.out.println(builder);
+
+
     }
 }
     
