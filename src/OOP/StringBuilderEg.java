@@ -23,6 +23,17 @@ public class StringBuilderEg {
         // conversion from StringBuilder object to String
         String str1 = builder.toString();
         System.out.println(str1);
+
+        String s = "This is string";
+
+        s.concat("It is IMMUTABLE");
+
+        // s= s.concat("It is IMMUTABLE");
+        System.out.println(s);
+
+        s = s.concat(" This is concat result");
+
+        System.out.println(s);
     }
 
 

@@ -3,6 +3,9 @@ package OOP.Inheritance;
 /**
  * Created by Shiva on 7/29/2017.
  */
+
+///Polymorphism example
+
 class Animal {
     void eat() {
         System.out.println("animal is eating...");
