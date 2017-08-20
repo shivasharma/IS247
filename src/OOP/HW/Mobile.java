@@ -3,6 +3,7 @@ package OOP.HW;
 /**
  * Created by Shiva on 8/10/2017.
  */
+/*
 public class Mobile {
 
     public String model;
@@ -58,3 +59,5 @@ class Blackberry extends Mobile {
         return "This is Blackberry-" + model;
     }
 }
+
+*/
