@@ -4,6 +4,14 @@ package OOP.HW;
  * Created by Shiva on 8/10/2017.
  */
 /*
+Instructions
+
+1)uncomment the code;
+2) Fix the errors on the code
+3) Move each class into its own file.
+4) Make sure your program is complied and display the output
+
+
 public class Mobile {
 
     public String model;
@@ -33,7 +41,7 @@ public class Mobile {
 
     //Method to get access Model property of Object
     public String getModel() {
-
+         -
     }
 }
 
