@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class ReadingFiles {
     public static void main(String[] args) throws Exception {
         //Reading file using BufferReader class
-        File file = new File("C:\\temp\\\\\\java.txt");
+        File file = new File("C:\\temp\\java.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
         String st;
         while ((st = br.readLine()) != null) {
@@ -20,7 +20,7 @@ public class ReadingFiles {
         }
 
 
-        File file1 = new File("C:\\temp\\\\\\java.txt");
+        File file1 = new File("C:\\temp\\java.txt");
         Scanner sc = new Scanner(file1);
         while (sc.hasNextLine()) {
             System.out.println(sc.nextLine());
