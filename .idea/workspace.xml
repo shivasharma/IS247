@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Generic/GenericClass.java" />
+    <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="Generic Class">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,11 +34,11 @@
       <file leaf-file-name="GenericClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Generic/GenericClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#191#199#0" expanded="true" />
+                <element signature="e#194#202#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -852,7 +851,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504393380670</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Generic Class">
+      <created>1504394735317</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1504394735317</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -898,7 +904,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="String Exceptions" />
     <MESSAGE value="Checked Exceptions" />
     <MESSAGE value="Input mismatch exception" />
     <MESSAGE value="JavaCustomException" />
@@ -923,7 +928,8 @@
     <MESSAGE value="AbstractClass And Interface" />
     <MESSAGE value="Interface" />
     <MESSAGE value="Added Generic Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Generic Method" />
+    <MESSAGE value="Generic Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic Class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1289,11 +1295,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Generic/GenericClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#191#199#0" expanded="true" />
+            <element signature="e#194#202#0" expanded="true" />
           </folding>
         </state>
       </provider>
