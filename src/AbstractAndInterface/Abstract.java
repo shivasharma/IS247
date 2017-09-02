@@ -23,8 +23,6 @@ public class Abstract {
         //can we do this
         //Honda honda= new Bike();
         Bike obj = new Honda();
-
-
         obj.run();
     }
 }
