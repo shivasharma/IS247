@@ -3,12 +3,9 @@ package AbstractAndInterface;
 /**
  * Created by Shiva on 9/2/2017.
  */
-
 interface Animal {
     void eat();
-
     void travel();
-
     void MamalType();
 }
 
@@ -25,6 +22,7 @@ public class InterfaceAnimal implements Animal {
         System.out.println("Mammal eats");
     }
 
+
     public void travel() {
         System.out.println("Mammal travels");
     }
@@ -38,3 +36,4 @@ public class InterfaceAnimal implements Animal {
         return 0;
     }
 }
+
