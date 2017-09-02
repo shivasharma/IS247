@@ -11,10 +11,10 @@ import java.util.List;
 
 class Employee implements Comparable {
 
+    static int i;
     int EmpID;
     String Ename;
     double Sal;
-    static int i;
 
     public Employee() {
         EmpID = i++;
@@ -41,18 +41,19 @@ class Employee implements Comparable {
             return -1;
     }
 }
+
 public class CompareableBuiltInInterface {
     public static void main(String[] args) {
 
         List ts1 = new ArrayList();
-        ts1.add(new Employee ("Tom",40000.00));
-        ts1.add(new Employee ("Harry",20000.00));
-        ts1.add(new Employee ("Maggie",50000.00));
-        ts1.add(new Employee ("Chris",70000.00));
+        ts1.add(new Employee("Tom", 40000.00));
+        ts1.add(new Employee("Harry", 20000.00));
+        ts1.add(new Employee("Maggie", 50000.00));
+        ts1.add(new Employee("Chris", 70000.00));
         Collections.sort(ts1);
         Iterator itr = ts1.iterator();
 
-        while(itr.hasNext()){
+        while (itr.hasNext()) {
             Object element = itr.next();
             System.out.println(element + "\n");
 

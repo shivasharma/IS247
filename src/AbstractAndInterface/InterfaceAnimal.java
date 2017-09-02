@@ -5,7 +5,9 @@ package AbstractAndInterface;
  */
 interface Animal {
     void eat();
+
     void travel();
+
     void MamalType();
 }
 
