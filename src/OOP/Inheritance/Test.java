@@ -8,7 +8,7 @@ package OOP.Inheritance;
 
 // base class
 class Bicycle {
-    // the Bicycle class has two fields
+    // The Bicycle class has two fields
     public int gear;
     public int speed;
 
@@ -68,8 +68,10 @@ class MountainBike extends Bicycle {
 public class Test {
     public static void main(String args[]) {
 
-        MountainBike mb = new MountainBike(3, 100, 25);
-        System.out.println(mb.toString());
+        //MountainBike mb = new MountainBike(3, 100, 25);
+        Bicycle b=new MountainBike(10,20,30);
+        System.out.println(b.toString());
+        //System.out.println(mb.toString());
 
     }
 }
