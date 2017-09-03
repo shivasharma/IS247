@@ -16,7 +16,7 @@ class Stats<T extends Number> {
             sum += n1[i].doubleValue();
 
         }
-        return sum;
+        return sum / n1.length;
     }
 }
 
@@ -29,6 +29,11 @@ public class BoundedTypeGeneric {
         Stats<Integer> i = new Stats<Integer>(i1);
         double op = i.avg();
         System.out.println("Average is " + op);
+
+        Double dnums[] = {10.5, 20.5, 30.5, 40.5};
+        Stats<Double> doublenumber = new Stats<Double>(dnums);
+        double result = doublenumber.avg();
+        System.out.println("Double number average is " + result);
     }
 
 

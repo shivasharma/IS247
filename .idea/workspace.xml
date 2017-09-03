@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java" afterPath="$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,12 +79,13 @@
       <file leaf-file-name="BoundedTypeGeneric.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#448#457#0" expanded="true" />
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#465#474#0" expanded="true" />
+                <element signature="e#649#657#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -573,20 +574,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497924533396</updated>
     </task>
-    <task id="LOCAL-00004" summary="Recursion sorting numbers">
-      <created>1498319470430</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1498319470430</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Factorial">
-      <created>1498320501881</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1498320501881</updated>
-    </task>
     <task id="LOCAL-00006" summary="LinkedList Recursion">
       <created>1498323597504</created>
       <option name="number" value="00006" />
@@ -916,7 +903,21 @@
       <option name="project" value="LOCAL" />
       <updated>1504397097023</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Bounded Type Generic">
+      <created>1504451608555</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1504451608555</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Bounded Type Generic">
+      <created>1504451658077</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1504451658077</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -931,7 +932,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.5062565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.49374348" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.49374348" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -962,7 +963,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="JavaCustomException" />
     <MESSAGE value="FileClass" />
     <MESSAGE value="FileWriteData" />
     <MESSAGE value="Reading file using Buffer Reader, file and filereader" />
@@ -987,7 +987,8 @@
     <MESSAGE value="Generic Class" />
     <MESSAGE value="Generic Demo Class" />
     <MESSAGE value="Generic Interface Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic Interface Demo" />
+    <MESSAGE value="Bounded Type Generic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bounded Type Generic" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1383,12 +1384,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="459">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#448#457#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#465#474#0" expanded="true" />
+            <element signature="e#649#657#0" expanded="true" />
           </folding>
         </state>
       </provider>
