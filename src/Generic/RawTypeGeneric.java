@@ -6,6 +6,14 @@ import java.util.List;
 
 public class RawTypeGeneric {
 
+    public static void main(String[] args) {
+
+        List languages = Arrays.asList("Java", "C#", "Python");
+        log(languages);
+
+    }
+
+
     void withRawType() {
         //Raw List doesn't self-document,
         //doesn't state explicitly what it can contain
@@ -24,7 +32,8 @@ public class RawTypeGeneric {
         }
     }
 
-    private void log(Object aMessage) {
+    private static void log(Object aMessage) {
         System.out.println(String.valueOf(aMessage));
     }
+
 }
