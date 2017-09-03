@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Generic/RawTypeGeneric.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java" afterPath="$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +16,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/IS247$ReadingFiles.coverage" NAME="ReadingFiles Coverage Results" MODIFIED="1503964898902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Exceptions.FileIO.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IS247$BoundedTypeGeneric.coverage" NAME="BoundedTypeGeneric Coverage Results" MODIFIED="1504452913924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Generic.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/IS247$StringBuilderVSStringBufferSpeed.coverage" NAME="StringBuilderVSStringBufferSpeed Coverage Results" MODIFIED="1503244227258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>OOP.*</FILTER>
@@ -32,60 +35,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenericClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Generic/GenericClass.java">
+      <file leaf-file-name="RawTypeGeneric.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Generic/RawTypeGeneric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#194#202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Generic/DemoClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="44" />
-              <folding>
-                <element signature="e#161#169#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoInterfaceClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Generic/DemoInterfaceClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoundedTypeGeneric.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-              <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#465#474#0" expanded="true" />
-                <element signature="e#649#657#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/OOP/StringBuilder.java" />
         <option value="$PROJECT_DIR$/src/OOP/StringBuilderandStringBufferSpeed.java" />
         <option value="$PROJECT_DIR$/src/OOP/Inheritance.java" />
         <option value="$PROJECT_DIR$/src/OOP/EmployeeInheritance.java" />
@@ -175,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/Generic/DemoInterface.java" />
         <option value="$PROJECT_DIR$/src/Generic/DemoInterfaceClass.java" />
         <option value="$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java" />
+        <option value="$PROJECT_DIR$/src/Generic/RawTypeGeneric.java" />
       </list>
     </option>
   </component>
@@ -220,13 +178,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="IS247" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IS247" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="BoundedTypeGeneric.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -266,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BoundedTypeGeneric">
+  <component name="RunManager" selected="Application.DemoInterfaceClass">
     <configuration name="BoundedTypeGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -552,8 +503,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BoundedTypeGeneric" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DemoInterfaceClass" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DemoInterfaceClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BoundedTypeGeneric" />
         <item index="2" class="java.lang.String" itemvalue="Application.DemoClass" />
         <item index="3" class="java.lang.String" itemvalue="Application.GenericClass" />
         <item index="4" class="java.lang.String" itemvalue="Application.GenericMethodExample" />
@@ -573,13 +524,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497924533396</updated>
-    </task>
-    <task id="LOCAL-00006" summary="LinkedList Recursion">
-      <created>1498323597504</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1498323597504</updated>
     </task>
     <task id="LOCAL-00007" summary="Power Function Recursion">
       <created>1498324738997</created>
@@ -917,7 +861,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504451658077</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Bounded Type Generic">
+      <created>1504451875471</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1504451875471</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -930,10 +881,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.5062565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.508342" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.49374348" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.49165797" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19186653" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -951,7 +903,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1018,13 +969,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OOP/Polymorphim/Bike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1336,13 +1280,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generic/GenericClass.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#194#202#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#467#476#0" expanded="true" />
+            <element signature="e#657#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Generic/DemoInterfaceClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1361,36 +1328,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generic/DemoInterfaceClass.java">
+    <entry file="file://$PROJECT_DIR$/src/Generic/GenericClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#202#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/lang/Number.java">
+    <entry file="file://$PROJECT_DIR$/src/Generic/RawTypeGeneric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generic/BoundedTypeGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#465#474#0" expanded="true" />
-            <element signature="e#649#657#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
           </folding>
         </state>
       </provider>
