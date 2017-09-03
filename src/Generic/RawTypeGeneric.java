@@ -6,13 +6,12 @@ import java.util.List;
 
 public class RawTypeGeneric {
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
 
-        List languages = Arrays.asList("Java", "C#", "Python");
-        log(languages);
+        withRawType();
+        withParameterizedType();
 
     }
-
 
     void withRawType() {
         //Raw List doesn't self-document,
@@ -32,7 +31,7 @@ public class RawTypeGeneric {
         }
     }
 
-    private static void log(Object aMessage) {
+    private void log(Object aMessage) {
         System.out.println(String.valueOf(aMessage));
     }
 
