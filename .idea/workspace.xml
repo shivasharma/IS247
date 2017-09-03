@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Generic/DemoClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Generic/DemoInterfaceClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,13 +45,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Generic/DemoClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="44" />
               <folding>
-                <element signature="e#236#244#0" expanded="true" />
+                <element signature="e#161#169#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoInterfaceClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Generic/DemoInterfaceClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Exceptions/FileIO/WriteData.java" />
-        <option value="$PROJECT_DIR$/src/Exceptions/FileIO/RadingFiles.java" />
         <option value="$PROJECT_DIR$/src/Exceptions/MultipleCatchBlock.java" />
         <option value="$PROJECT_DIR$/src/OOP/StringBuilder.java" />
         <option value="$PROJECT_DIR$/src/OOP/StringBuilderandStringBufferSpeed.java" />
@@ -141,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/Generic/GenericMethodExample.java" />
         <option value="$PROJECT_DIR$/src/Generic/GenericClass.java" />
         <option value="$PROJECT_DIR$/src/Generic/DemoClass.java" />
+        <option value="$PROJECT_DIR$/src/Generic/DemoInterface.java" />
+        <option value="$PROJECT_DIR$/src/Generic/DemoInterfaceClass.java" />
       </list>
     </option>
   </component>
@@ -225,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoClass">
+  <component name="RunManager" selected="Application.DemoInterfaceClass">
     <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -234,6 +253,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Generic.DemoClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IS247" />
+      <envs />
+    </configuration>
+    <configuration name="DemoInterfaceClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Generic.DemoInterfaceClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -272,20 +310,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Generic.GenericMethodExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IS247" />
-      <envs />
-    </configuration>
-    <configuration name="InterfaceEg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="InterfaceEg" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -498,19 +522,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.InterfaceEg" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GenericMethodExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GenericClass" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DemoClass" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GenericMethodExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GenericClass" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DemoClass" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DemoInterfaceClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DemoClass" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GenericClass" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GenericMethodExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InterfaceEg" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DemoInterfaceClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DemoClass" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GenericClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GenericMethodExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -527,13 +551,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497924533396</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial commi">
-      <created>1497925052811</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1497925052811</updated>
     </task>
     <task id="LOCAL-00003" summary="Recursion sorting numbers">
       <created>1498319429087</created>
@@ -871,7 +888,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504394756327</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Generic Demo Class">
+      <created>1504396386051</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1504396386051</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -917,7 +941,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Checked Exceptions" />
     <MESSAGE value="Input mismatch exception" />
     <MESSAGE value="JavaCustomException" />
     <MESSAGE value="FileClass" />
@@ -942,7 +965,8 @@
     <MESSAGE value="Interface" />
     <MESSAGE value="Added Generic Method" />
     <MESSAGE value="Generic Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic Class" />
+    <MESSAGE value="Generic Demo Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generic Demo Class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -972,13 +996,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Recursion/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/LargeFactorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1318,10 +1335,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Generic/DemoClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="44" />
           <folding>
-            <element signature="e#236#244#0" expanded="true" />
+            <element signature="e#161#169#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Generic/DemoInterfaceClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
           </folding>
         </state>
       </provider>
