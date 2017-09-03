@@ -10,6 +10,7 @@ public class UnboundWildCardGeneric {
         List<String> ls = Arrays.asList("one", "two", "three");
         printList1(li);
         printList1(ls);
+
     }
 
     public static void printList1(List<?> list) {
@@ -23,6 +24,7 @@ public class UnboundWildCardGeneric {
             System.out.println(elem + " ");
         System.out.println();
     }
+
 
     /* NOte
     * It’s important to note that List<Object> and List<?> are not the same. You can insert an Object,
