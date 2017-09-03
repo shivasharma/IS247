@@ -28,7 +28,7 @@ public class BoundedTypeGeneric {
         Integer i1[] = {10, 20, 30, 40};
         Stats<Integer> i = new Stats<Integer>(i1);
         double op = i.avg();
-        System.out.println("Average is" + op);
+        System.out.println("Average is " + op);
     }
 
 
