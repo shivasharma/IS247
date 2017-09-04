@@ -28,6 +28,8 @@ public class ArrayListMethods {
         for (int i = 0; i < arrli.size(); i++) {
             System.out.print(arrli.get(i) + " ");
         }
+        System.out.println("---------USING forEACH method----");
+        arrli.forEach(e -> System.out.print(e));
 
         arrli.remove(1);
         System.out.println("Array  after remove method " + arrli);
