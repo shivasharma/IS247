@@ -23,8 +23,6 @@ public class ArrayListExample {
             System.out.println(b.id + " " + b.name + " " + b.author + " " + b.publisher + " " + b.quantity);
         }
     }
-
-
 }
 
 class Book {
