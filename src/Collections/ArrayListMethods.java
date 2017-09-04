@@ -2,6 +2,7 @@ package Collections;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListMethods {
     public static void main(String[] args) throws IOException {
@@ -50,6 +51,11 @@ public class ArrayListMethods {
         arraylist.add(1);
         arraylist.trimToSize();
         System.out.println(arraylist);
+
+        List<String> s = new ArrayList<>();
+        s.add("IS247");
+
+        System.out.println(s);
     }
 }
 
