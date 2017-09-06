@@ -1,6 +1,9 @@
 package Collections;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class HashSetExample {
 
@@ -12,18 +15,6 @@ public class HashSetExample {
         set.add("New York");
         set.add("New York");
         System.out.println(set);
-
-
-        //LinkedHashSet
-        Set<String> set1 = new LinkedHashSet<>();
-        set1.add("London");
-        set1.add("Paris");
-        set1.add("New York");
-        set1.add("New York");
-        System.out.println(set1);
-
-
-
 
 
         Set<Integer> a = new HashSet<Integer>();

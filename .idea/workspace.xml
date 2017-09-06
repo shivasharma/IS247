@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="queue">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collections/LabCollection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collections/LinkedHashSetExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Collections/HashSetExample.java" afterPath="$PROJECT_DIR$/src/Collections/HashSetExample.java" />
     </list>
@@ -36,18 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayListExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Collections/ArrayListExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="VectorClassExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Collections/VectorClassExample.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,18 +71,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashSetExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HashSetExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Collections/HashSetExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#574#583#0" expanded="true" />
-                <element signature="e#677#686#0" expanded="true" />
-                <element signature="e#813#822#0" expanded="true" />
-                <element signature="e#1017#1026#0" expanded="true" />
-                <element signature="e#1255#1264#0" expanded="true" />
-                <element signature="e#1550#1558#0" expanded="true" />
+                <element signature="e#345#354#0" expanded="true" />
+                <element signature="e#448#457#0" expanded="true" />
+                <element signature="e#584#593#0" expanded="true" />
+                <element signature="e#788#797#0" expanded="true" />
+                <element signature="e#1026#1035#0" expanded="true" />
+                <element signature="e#1321#1329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedHashSetExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Collections/LinkedHashSetExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/OOP/StringBuilderEg.java" />
         <option value="$PROJECT_DIR$/src/OOP/StringBuilderVSStringBufferSpeed.java" />
         <option value="$PROJECT_DIR$/src/OOP/lab/Message.java" />
         <option value="$PROJECT_DIR$/src/OOP/HW/Mobile.java" />
@@ -236,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/Collections/LabCollection.java" />
         <option value="$PROJECT_DIR$/src/Collections/TreeSetExample.java" />
         <option value="$PROJECT_DIR$/src/Collections/HashSetExample.java" />
+        <option value="$PROJECT_DIR$/src/Collections/LinkedHashSetExample.java" />
       </list>
     </option>
   </component>
@@ -630,13 +631,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497924533396</updated>
     </task>
-    <task id="LOCAL-00030" summary="Inheritance">
-      <created>1502418699655</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1502418699655</updated>
-    </task>
     <task id="LOCAL-00031" summary="StringBuilder VS StringBuffer speed">
       <created>1503244336388</created>
       <option name="number" value="00031" />
@@ -973,7 +967,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504658533255</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Hashset">
+      <created>1504659592663</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1504659592663</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -988,7 +989,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2833698" sideWeight="0.5208111" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2833698" sideWeight="0.4791889" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2833698" sideWeight="0.4791889" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FaTPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46827134" sideWeight="0.4914621" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1023,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="File Reader" />
     <MESSAGE value="Filewriter" />
     <MESSAGE value="ReadFromWeb" />
     <MESSAGE value="AbstractClass And Interface" />
@@ -1047,7 +1047,8 @@
     <MESSAGE value="queue" />
     <MESSAGE value="HashsetExample" />
     <MESSAGE value="TreeSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeSet" />
+    <MESSAGE value="Hashset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashset" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1081,13 +1082,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AbstractAndInterface/CompareableBuiltInInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractAndInterface/Abstract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1462,15 +1456,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections/HashSetExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#574#583#0" expanded="true" />
-            <element signature="e#677#686#0" expanded="true" />
-            <element signature="e#813#822#0" expanded="true" />
-            <element signature="e#1017#1026#0" expanded="true" />
-            <element signature="e#1255#1264#0" expanded="true" />
-            <element signature="e#1550#1558#0" expanded="true" />
+            <element signature="e#345#354#0" expanded="true" />
+            <element signature="e#448#457#0" expanded="true" />
+            <element signature="e#584#593#0" expanded="true" />
+            <element signature="e#788#797#0" expanded="true" />
+            <element signature="e#1026#1035#0" expanded="true" />
+            <element signature="e#1321#1329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collections/LinkedHashSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
