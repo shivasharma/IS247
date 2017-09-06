@@ -11,6 +11,10 @@ public class EnumSetExample {
         Iterator<days> iter = set.iterator();
         while (iter.hasNext())
             System.out.println(iter.next());
+
+        days a = days.TUESDAY;
+        System.out.println(a);
+
     }
 
     enum days {
