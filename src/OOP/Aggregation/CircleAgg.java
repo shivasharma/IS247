@@ -18,7 +18,7 @@ public class CircleAgg {
     public static void main(String args[]) {
         CircleAgg c = new CircleAgg();
         double result = c.area(10);
-        System.out.println("The area of a square is" + result);
+        System.out.println("The area of a square is " + result);
     }
 
     double area(int radius) {
