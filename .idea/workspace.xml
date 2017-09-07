@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OOP/Aggregation/CircleAgg.java" afterPath="$PROJECT_DIR$/src/OOP/Aggregation/CircleAgg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OOP/Aggregation/EmployeeAggregation.java" afterPath="$PROJECT_DIR$/src/OOP/Aggregation/EmployeeAggregation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +35,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CircleAgg.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CircleAgg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/CircleAgg.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeAggregation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/EmployeeAggregation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/OOP/Class.java" />
         <option value="$PROJECT_DIR$/src/OOP/Polymorphim/StaticBinding.java" />
         <option value="$PROJECT_DIR$/src/OOP/Polymorphim/DynamicBinding.java" />
         <option value="$PROJECT_DIR$/src/Exceptions/FileIO/files/test.txt" />
@@ -129,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/Collections/EnumSetExample.java" />
         <option value="$PROJECT_DIR$/src/Collections/MapExample.java" />
         <option value="$PROJECT_DIR$/src/OOP/Aggregation/CircleAgg.java" />
+        <option value="$PROJECT_DIR$/src/OOP/Aggregation/EmployeeAggregation.java" />
       </list>
     </option>
   </component>
@@ -230,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CircleAgg">
+  <component name="RunManager" selected="Application.EmployeeAggregation">
     <configuration name="CircleAgg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -239,6 +259,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="OOP.Aggregation.CircleAgg" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IS247" />
+      <envs />
+    </configuration>
+    <configuration name="EmployeeAggregation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="OOP.Aggregation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="OOP.Aggregation.EmployeeAggregation" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -296,25 +335,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Collections.MapExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IS247" />
-      <envs />
-    </configuration>
-    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Collections.TreeSetExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -509,18 +529,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.HashSetExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TreeSetExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EnumSetExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MapExample" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CircleAgg" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EnumSetExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MapExample" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CircleAgg" />
+      <item index="4" class="java.lang.String" itemvalue="Application.EmployeeAggregation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CircleAgg" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MapExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EnumSetExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HashSetExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TreeSetExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EmployeeAggregation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CircleAgg" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MapExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EnumSetExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HashSetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -537,13 +557,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497924533396</updated>
-    </task>
-    <task id="LOCAL-00036" summary="File Copy">
-      <created>1503965502304</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1503965502304</updated>
     </task>
     <task id="LOCAL-00037" summary="File Copy">
       <created>1503966304678</created>
@@ -881,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504663780854</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Aggregation">
+      <created>1504751936800</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1504751936800</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -930,7 +950,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Interface" />
     <MESSAGE value="Added Generic Method" />
     <MESSAGE value="Generic Class" />
     <MESSAGE value="Generic Demo Class" />
@@ -955,7 +974,8 @@
     <MESSAGE value="LinkedHashSet" />
     <MESSAGE value="EnumSet" />
     <MESSAGE value="Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map" />
+    <MESSAGE value="Aggregation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggregation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -989,13 +1009,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/Encapsulation/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1007,13 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/EmployeeAggregation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1400,6 +1406,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/EmployeeAggregation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
