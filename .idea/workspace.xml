@@ -58,8 +58,8 @@
       <file leaf-file-name="EmployeeAggregation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/EmployeeAggregation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -558,13 +558,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497924533396</updated>
     </task>
-    <task id="LOCAL-00037" summary="File Copy">
-      <created>1503966304678</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1503966304678</updated>
-    </task>
     <task id="LOCAL-00038" summary="File Reader">
       <created>1503966928513</created>
       <option name="number" value="00038" />
@@ -901,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504751936800</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Aggregation">
+      <created>1504752098049</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1504752098049</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1420,8 +1420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/Aggregation/EmployeeAggregation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>

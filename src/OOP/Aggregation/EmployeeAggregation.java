@@ -9,6 +9,7 @@ public class EmployeeAggregation {
 
     int id;
     String name;
+    //composition
     Address address;
 
     public EmployeeAggregation(int id, String name, Address address) {
@@ -18,6 +19,7 @@ public class EmployeeAggregation {
     }
 
     public static void main(String[] args) {
+
         Address address1 = new Address("Crofton", "MD", "USA");
         Address address2 = new Address("Baltimore", "MD", "USA");
 
