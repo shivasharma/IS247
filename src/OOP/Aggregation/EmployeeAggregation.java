@@ -9,8 +9,8 @@ public class EmployeeAggregation {
 
     int id;
     String name;
+    //composition
     Address address;
-    Shiva shiva;
 
     public EmployeeAggregation(int id, String name, Address address) {
         this.id = id;
@@ -19,8 +19,10 @@ public class EmployeeAggregation {
     }
 
     public static void main(String[] args) {
-        Address address1 = new Address("gzb", "MD", "USA", "test");
-        Address address2 = new Address("gno", "MT", "CANADA", "");
+
+        //creating an object of address class
+        Address address1 = new Address("Crofton", "MD", "USA");
+        Address address2 = new Address("Baltimore", "MD", "USA");
 
         EmployeeAggregation e = new EmployeeAggregation(111, "John", address1);
         EmployeeAggregation e2 = new EmployeeAggregation(112, "Smith", address2);
