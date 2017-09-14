@@ -1,4 +1,4 @@
-package Exceptions.FileIO;
+package ExceptionsChapter12.FileIO;
 
 import java.io.FileWriter;
 import java.io.IOException;

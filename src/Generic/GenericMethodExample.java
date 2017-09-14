@@ -12,9 +12,7 @@ public class GenericMethodExample {
         String[] daysOfWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         print(ints);
         print(daysOfWeek);
-
     }
-
     public static <E> void print(E[] list) {
         for (E element : list) {
             System.out.println(element + " ");

@@ -1,9 +1,6 @@
-package Exceptions.FileIO;
+package ExceptionsChapter12.FileIO;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.*;
 import java.util.Scanner;
 
 /**
@@ -18,9 +15,9 @@ public class ReadingFiles {
         while ((st = br.readLine()) != null) {
             System.out.println(st);
         }
+        String sourceFile = "files/test.txt";
 
-
-        File file1 = new File("C:\\temp\\java.txt");
+        File file1 = new File(sourceFile);
         Scanner sc = new Scanner(file1);
         while (sc.hasNextLine()) {
             System.out.println(sc.nextLine());
@@ -35,6 +32,14 @@ public class ReadingFiles {
         } catch (FileNotFoundException ex) {
             System.out.println("File does not exist");
 
+        } finally {
+            try {
+                if (br != null) {
+                    br.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 

@@ -1,10 +1,11 @@
-package Exceptions;
+package ExceptionsChapter12;
 
 /**
  * Created by Shiva on 6/24/2017.
  */
 public class Exceptions {
-
+    //It compiles fine, but it throws ArithmeticException when run.
+    // The compiler allows it to compile, because ArithmeticException is an unchecked exception.
     public static void main(String[] args) {
         int i = 12;
         int j = 2;
@@ -14,7 +15,7 @@ public class Exceptions {
             System.out.println(result);
 
 
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
             System.out.println("Error" + e.getMessage());
 
             //This line will show exactly what went wrong
