@@ -1,9 +1,5 @@
-package Exceptions.FileIO;
+package ExceptionsChapter12;
 
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 
 /**
  * Created by Shiva on 9/13/2017.
