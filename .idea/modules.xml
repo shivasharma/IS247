@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/0DC83A6A86B92D9C9E787FA509625414/0DC83A6A86B92D9C9E787FA509625414.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/0DC83A6A86B92D9C9E787FA509625414/0DC83A6A86B92D9C9E787FA509625414.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/1CD53650198AAC35A08D1E0C75C33594/1CD53650198AAC35A08D1E0C75C33594.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/1CD53650198AAC35A08D1E0C75C33594/1CD53650198AAC35A08D1E0C75C33594.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/1F0220D86CA025644BC3AA13DA805FBB/1F0220D86CA025644BC3AA13DA805FBB.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/1F0220D86CA025644BC3AA13DA805FBB/1F0220D86CA025644BC3AA13DA805FBB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/229C08F3FAE6BD9B9A24A1CA7995EB57/229C08F3FAE6BD9B9A24A1CA7995EB57.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/229C08F3FAE6BD9B9A24A1CA7995EB57/229C08F3FAE6BD9B9A24A1CA7995EB57.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/5CA1DB2D8FD32D85584F16367BEB0C7A/5CA1DB2D8FD32D85584F16367BEB0C7A.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/5CA1DB2D8FD32D85584F16367BEB0C7A/5CA1DB2D8FD32D85584F16367BEB0C7A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Debug/Debug.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Debug/Debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/E969DDAF76290F15B26C216198C0E9A5/E969DDAF76290F15B26C216198C0E9A5.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/E969DDAF76290F15B26C216198C0E9A5/E969DDAF76290F15B26C216198C0E9A5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/F7288C14B8344992105FACDA1B79347D/F7288C14B8344992105FACDA1B79347D.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/F7288C14B8344992105FACDA1B79347D/F7288C14B8344992105FACDA1B79347D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/FCC9CD0253E6D6C10A080DE65DA868CA/FCC9CD0253E6D6C10A080DE65DA868CA.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/resourcecache/FCC9CD0253E6D6C10A080DE65DA868CA/FCC9CD0253E6D6C10A080DE65DA868CA.iml" />
       <module fileurl="file://$PROJECT_DIR$/IS247.iml" filepath="$PROJECT_DIR$/IS247.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/Properties/Properties.iml" filepath="$PROJECT_DIR$/IS247/Droid/Properties/Properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/Release.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/Release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Release/android/android.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Release/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS247/Droid/obj/Debug/android/android1.iml" filepath="$PROJECT_DIR$/IS247/Droid/obj/Debug/android/android1.iml" />
     </modules>
   </component>
 </project>
