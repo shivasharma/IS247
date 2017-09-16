@@ -6,6 +6,7 @@ import java.util.List;
 public class ArrayListExample {
     public static void main(String[] args) {
         //Creating list of Books
+        // ArrayList<Book> list1 = new ArrayList<Book>();
         List<Book> list = new ArrayList<Book>();
         //Creating Books
         Book b1 = new Book(101, "Let us C", "Yashwant Kanetkar", "BPB", 8);
