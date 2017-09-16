@@ -69,7 +69,7 @@ public class Test {
     public static void main(String args[]) {
 
         //MountainBike mb = new MountainBike(3, 100, 25);
-        Bicycle b=new MountainBike(10,20,30);
+        Bicycle b = new MountainBike(10, 20, 30);
         System.out.println(b.toString());
         //System.out.println(mb.toString());
 

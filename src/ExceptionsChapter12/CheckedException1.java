@@ -7,7 +7,7 @@ package ExceptionsChapter12;
 public class CheckedException1 {
 
 
-   // public static void main(String []args) throws IOException {
+    // public static void main(String []args) throws IOException {
 
     /* try {
         FileWriter writer = new FileWriter("files/MyFile.txt", true);
@@ -15,10 +15,9 @@ public class CheckedException1 {
         e.printStackTrace();
     }
     */
-    public static void main(String []args)  {
+    public static void main(String[] args) {
 
-           // FileWriter writer = new FileWriter("files/MyFile.txt", true);
-
+        // FileWriter writer = new FileWriter("files/MyFile.txt", true);
 
 
     }
