@@ -8,6 +8,7 @@ import java.io.IOException;
  */
 public class Filewriter {
 
+
     public static void main(String[] args) {
         try {
             FileWriter writer = new FileWriter("files/MyFile.txt", true);
