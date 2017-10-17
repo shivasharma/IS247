@@ -11,6 +11,13 @@ public class DemoClass<T> {
         String name = instance.get();
         System.out.println(name);
         //instance.set(1); //compile time error check
+
+
+        DemoClass<Integer> integerInstance = new DemoClass<>();
+        integerInstance.set(10);
+        Integer myName = integerInstance.get();
+        System.out.println(myName);
+
     }
 
     public void set(T t) {
