@@ -11,14 +11,14 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        System.out.print("Enter a naumber for the factorial problems:");
+        System.out.print("Enter a number for the factorial problems:");
 
         int f = in.nextInt();
 
         System.out.println("Factorial of " + f + " is: " + factorial(f));
     }
 
-    static int factorial(int n) {
+    static double factorial(int n) {
         if (n == 0)
             return 1;
         else

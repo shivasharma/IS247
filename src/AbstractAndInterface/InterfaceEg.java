@@ -7,6 +7,7 @@ package AbstractAndInterface;
 
 interface MotorBike {
     void run();
+
 }
 
 public class InterfaceEg implements MotorBike {

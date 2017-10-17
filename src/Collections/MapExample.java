@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
 public class MapExample {
@@ -13,5 +14,14 @@ public class MapExample {
         for (Map.Entry m : map.entrySet()) {
             System.out.println(m.getKey() + " " + m.getValue());
         }
+
+
+        Map m = new Hashtable();
+
+        m.put(1, "Test");
+        m.put(2, "Test1");
+
+        System.out.println(m);
+
     }
 }

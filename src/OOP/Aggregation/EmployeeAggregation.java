@@ -9,7 +9,6 @@ public class EmployeeAggregation {
 
     int id;
     String name;
-    //composition
     Address address;
 
     public EmployeeAggregation(int id, String name, Address address) {

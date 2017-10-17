@@ -38,7 +38,7 @@ public class ArrayListMethods {
 
 
         //declaring ArrayList with initial size n
-        ArrayList<Integer> arraylist = new ArrayList<Integer>(50);
+        ArrayList<Integer> arraylist = new ArrayList<Integer>();
         arraylist.add(1);
         arraylist.add(2);
         arraylist.add(3);
@@ -54,7 +54,6 @@ public class ArrayListMethods {
 
         List<String> s = new ArrayList<>();
         s.add("IS247");
-
         System.out.println(s);
     }
 }

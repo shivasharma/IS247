@@ -6,18 +6,12 @@ package ExceptionsChapter12;
 public class MultipleCatchBlock {
 
     public static void main(String args[]) {
-        try {
-            int a[] = new int[27];
-            a[4] = 30 / 1;
-            a[4] = 30 / 0;
-            System.out.println("First print statement in try block");
-        } catch (ArithmeticException e) {
-            System.out.println("Warning: ArithmeticException");
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Warning: ArrayIndexOutOfBoundsException");
-        } catch (Exception e) {
-            System.out.println("Warning: Some Other exception");
-        }
-        System.out.println("Out of try-catch block...");
+        String num = "234";
+        int num1 = num.charAt(1);
+        int num2 = num.charAt(2);
+
+        int result = num1 + num2;
+        System.out.println(num1);
+        System.out.println(result);
     }
 }

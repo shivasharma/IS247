@@ -7,6 +7,10 @@ package AbstractAndInterface;
 abstract class Bike {
     //what happens if the abstract keyword is removed from the method
     abstract void run();
+
+    void sleep() {
+        System.out.println("Program is sleeping");
+    }
 }
 
 //Honda is a concrete class

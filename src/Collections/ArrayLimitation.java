@@ -1,33 +1,23 @@
 package Collections;
 
-import java.util.ArrayList;
-
 public class ArrayLimitation {
-    public static void main(String[] args) {
-        int[] numbers = new int[5];
-        numbers[0] = 100;
-        numbers[1] = 200;
-        numbers[2] = 300;
-        numbers[3] = 400;
-        numbers[4] = 500;
-        // numbers[5] = 600; // which is not possible because the size of the array is fixed.
-        for (int i : numbers) {
-            System.out.print(i + ", ");
-        }
-      
+    public static void main(String[] args) throws Exception {
+        String num = "234";
+        char num1 = num.charAt(1);
+        char num2 = num.charAt(2);
+        int result = num1 + num2;
+        System.out.println(num1);
+        System.out.println(result);
 
-        ArrayList<Integer> a1 = new ArrayList<Integer>();
 
-        a1.add(1);
-        a1.add(1);
-        a1.add(2);
+        char ch = '3';
+        char ch1 = '4';
+        int ascii = ch;
+        int result1 = (ch + ch1);
+        // You can also cast char to int
+        int castAscii = result1;
 
-        System.out.println(a1);
-        for (Integer i : a1) {
-            System.out.print(i);
-        }
-
-//here the default size is 10 and can be increased during the runtime
+        System.out.println("The ASCII value of " + ch + " is: " + ascii);
+        System.out.println("The ASCII value of " + ch + " is: " + castAscii);
     }
-
 }

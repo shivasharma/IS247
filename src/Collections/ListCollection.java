@@ -1,7 +1,6 @@
 package Collections;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class ListCollection {
     public static void main(String[] args) {
@@ -12,5 +11,10 @@ public class ListCollection {
         myList.add("IS413");
         System.out.println("Initial list:" + myList);
         System.out.println("-----------------------------------");
+
+        Queue<Integer> queue = new LinkedList<>();
+        Deque<Integer> dq = new LinkedList<>();
+
+
     }
 }
