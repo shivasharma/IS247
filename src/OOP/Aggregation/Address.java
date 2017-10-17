@@ -6,10 +6,10 @@ package OOP.Aggregation;
 public class Address {
     String city, state, country, addreess;
 
-    public Address(String city, String state, String country, String address) {
+    public Address(String city, String state, String country) {
         this.city = city;
         this.state = state;
         this.country = country;
-        this.addreess = address;
+
     }
 }
