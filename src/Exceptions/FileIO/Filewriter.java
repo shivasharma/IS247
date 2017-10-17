@@ -1,4 +1,4 @@
-package ExceptionsChapter12.FileIO;
+package Exceptions.FileIO;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -7,7 +7,6 @@ import java.io.IOException;
  * Created by Shiva on 8/28/2017.
  */
 public class Filewriter {
-
 
     public static void main(String[] args) {
         try {

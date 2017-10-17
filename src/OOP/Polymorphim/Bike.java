@@ -11,7 +11,10 @@ class Bike {
 
 class Mountain extends Bike {
     public static void main(String args[]) {
-        Bike b = new Mountain();//upcasting method invocation is determint be the JVM not complier as runtime polymorphism
+        Bike b = new Mountain();
+
+        //Mountain b1 = new Bike();
+        //upcasting method invocation is determint be the JVM not complier as runtime polymorphism
         b.run();
     }
 

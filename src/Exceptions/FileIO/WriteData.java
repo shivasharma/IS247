@@ -1,4 +1,4 @@
-package ExceptionsChapter12.FileIO;
+package Exceptions.FileIO;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,9 +10,7 @@ import java.io.PrintWriter;
 public class WriteData {
 
     public static void main(String args[]) throws IOException {
-        File file = new File("scores1.txt");
-
-
+        File file = new File("scores.txt");
         if (file.exists()) {
             System.out.println("File already exists");
             System.exit(0);

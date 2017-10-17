@@ -13,7 +13,6 @@ public class GenericMethodExample {
         print(ints);
         print(daysOfWeek);
     }
-
     public static <E> void print(E[] list) {
         for (E element : list) {
             System.out.println(element + " ");

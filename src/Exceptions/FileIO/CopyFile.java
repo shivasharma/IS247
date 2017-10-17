@@ -1,4 +1,4 @@
-package ExceptionsChapter12.FileIO;
+package Exceptions.FileIO;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

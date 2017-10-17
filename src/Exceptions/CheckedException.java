@@ -1,4 +1,4 @@
-package ExceptionsChapter12;
+package Exceptions;
 
 /**
  * Created by Shiva on 7/22/2017.
