@@ -15,6 +15,7 @@ public class LowerboundwildCardGeneircs {
     static void printListItems2(List<? super Integer> list) {
         for (Object num : list) {
             System.out.println(num);
+
         }
     }
 
