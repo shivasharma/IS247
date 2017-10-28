@@ -8,7 +8,7 @@ public class ListCollection {
 
         myList.add("IS147");
         myList.add("IS247");
-        myList.add("IS413");
+        myList.add("413");
         System.out.println("Initial list:" + myList);
         System.out.println("-----------------------------------");
 

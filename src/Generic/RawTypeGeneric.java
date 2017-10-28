@@ -39,7 +39,7 @@ public class RawTypeGeneric {
     }
 
     private void rawTypeIssue() {
-        List names = new ArrayList(); // warning: raw type!
+        List names = new ArrayList(); 
         names.add("John");
         names.add("Mary");
         names.add(Boolean.FALSE);
