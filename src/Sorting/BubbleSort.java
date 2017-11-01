@@ -1,5 +1,7 @@
 package Sorting;
 
+import static java.lang.System.currentTimeMillis;
+
 public class BubbleSort {
     public static void bubble_srt(int array[]) {
         int n = array.length;
@@ -11,6 +13,7 @@ public class BubbleSort {
                     swapNumbers(i, k, array);
                 }
             }
+
             printNumbers(array);
         }
     }
@@ -35,5 +38,15 @@ public class BubbleSort {
         int[] input = {4, 2, 9, 6, 23, 12, 34, 0, 1};
         bubble_srt(input);
 
+    }
+
+    public static void getTime(long n) {
+        long startTime = currentTimeMillis();
+        long k = 0;
+        for (long i = 1; i <= n; i++) {
+            k = k + 5;
+        }
+        long endTime = currentTimeMillis();
+        System.out.println("Execution Time for n= " + n + " is " + (endTime - startTime) + " milliseconds ");
     }
 }
