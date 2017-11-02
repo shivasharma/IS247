@@ -9,11 +9,11 @@ public class InsertionSort {
         //int[] array= {10,34,2,56,7,67,88,42};
         int[] array;
 
-        array = new int[1000];
+        array = new int[10];
 
         Random rand = new Random();
         for (int i = 0; i < array.length; i++) {
-            int value = rand.nextInt(1000);
+            int value = rand.nextInt(10);
             System.out.print(" " + value);
             array[i] = value;
         }
