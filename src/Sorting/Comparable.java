@@ -27,9 +27,9 @@ class Student implements Comparable<Student> {
 class TestSort3 {
     public static void main(String args[]) {
         ArrayList<Student> al = new ArrayList<Student>();
-        al.add(new Student(101, "Vijay", 23));
-        al.add(new Student(106, "Ajay", 27));
-        al.add(new Student(105, "Jai", 21));
+        al.add(new Student(147, "Variable In Java", 5));
+        al.add(new Student(247, "Java Part2", 1));
+        al.add(new Student(413, "Advance Java Programming", 7));
 
         Collections.sort(al);
         for (Student st : al) {
