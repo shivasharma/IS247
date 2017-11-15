@@ -12,4 +12,9 @@ public class PrintGrades {
         else
             return "You failed";
     }
+
+    public String MyName() {
+
+        return "Shiva";
+    }
 }
