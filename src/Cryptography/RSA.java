@@ -17,7 +17,7 @@ public class RSA {
 
         // decrypt the message
         //call the method to decrypt the message
-        System.out.println(new String(secret));     // This is a secret message
+        System.out.println(new String secret))// This is a secret message
     }
 
     public static KeyPair buildKeyPair() throws NoSuchAlgorithmException {
@@ -29,12 +29,12 @@ public class RSA {
 
     public static byte[] encrypt(PrivateKey privateKey, String message) throws Exception {
         Cipher cipher = Cipher.getInstance("");
-        cipher.init(Cipher.ENCRYPT_MODE, privateKey);
+        cipher.init(Cipher.ENCRYPT_MODE, privateKEy);
 
         return cipher.doFinal(message.getBytes());
     }
 
-    public static byte[] decrypt(PublicKey publicKey, byte[] encrypted) throws Exception {
+    public static void decrypt(PublicKey publicKey, byte[] encrypted) throws Exception {
         //write a method to decrypt
         return cipher.doFinal(encrypted);
     }
