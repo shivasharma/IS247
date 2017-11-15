@@ -1,8 +1,6 @@
 package Cryptography;
 
-import javax.crypto.Cipher;
-import java.security.*;
-
+/*
 public class RSA {
 
     public static void main(String[] args) throws Exception {
@@ -39,3 +37,5 @@ public class RSA {
         return cipher.doFinal(encrypted);
     }
 }
+
+*/
