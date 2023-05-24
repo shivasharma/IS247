@@ -1,4 +1,4 @@
-package Exceptions.FileIO;
+package FileIO;
 
 import java.io.IOException;
 import java.nio.file.Files;
