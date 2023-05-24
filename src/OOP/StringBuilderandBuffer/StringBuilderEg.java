@@ -1,19 +1,19 @@
-package OOP;
+package OOP.StringBuilderandBuffer;
 
 /**
  * Created by Shiva on 7/9/2017.
  */
 public class StringBuilderEg {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         StringBuffer buffer = new StringBuffer("hello");
-        buffer.append("java");
+        buffer.append("java using stringbuffer");
 
         System.out.println(buffer.append(new StringBuffer()));
         System.out.println(buffer);
 
         StringBuilder builder = new StringBuilder("hello");
-        builder.append("java");
+        builder.append("java using string builder");
         System.out.println(builder);
 
         builder.reverse();
