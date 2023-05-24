@@ -11,8 +11,14 @@ public class StringBuilderEg {
         String str3 = str1 + " " + str2;
         System.out.println(str3);
 
+
+        StringBuffer sb = new StringBuffer();
+        //default to 16 max
+        System.out.println("Initial Capacity" + sb.capacity());
+
         StringBuffer buffer = new StringBuffer("hello");
         buffer.append("java using stringbuffer");
+
 
         System.out.println(buffer.append(new StringBuffer()));
         System.out.println(buffer);
@@ -24,10 +30,8 @@ public class StringBuilderEg {
         builder.reverse();
         System.out.println(builder);
 
-
         // conversion from StringBuilder object to String
-        String str1 = builder.toString();
-        System.out.println(str1);
+
 
         String s = "This is string";
 
@@ -39,6 +43,8 @@ public class StringBuilderEg {
         s = s.concat(" This is concat result");
 
         System.out.println(s);
+
+        String test = "test";
     }
 
 
