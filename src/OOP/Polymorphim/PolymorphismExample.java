@@ -29,3 +29,12 @@ public class PolymorphismExample {
         animal2.sound(); // Calls the sound() method of the Cat class
     }
 }
+
+/*
+ When we call the sound() method on these objects, polymorphism comes into play.
+  The actual method called depends on the type of the object at runtime.
+  The sound() method of the respective subclass is invoked, even though we're
+   using the Animal reference to call the method. This is an example of dynamic
+   polymorphism or runtime polymorphism.
+
+ */
