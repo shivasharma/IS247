@@ -16,7 +16,7 @@ public class Exceptions {
 
         } catch (Exception e) {
             System.out.println("Error" + e.getMessage());
-
+            System.out.println("Error" + e + " cannot divide by zero");
             //This line will show exactly what went wrong
             e.printStackTrace();
         }

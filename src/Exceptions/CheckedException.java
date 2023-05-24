@@ -27,7 +27,7 @@ public class CheckedException {
         System.out.printf("Recversing string %s... \n", s);
         return sb.reverse().toString();
 
-        // return "This is test";
+        // return reversedString;
     }
 }
 
