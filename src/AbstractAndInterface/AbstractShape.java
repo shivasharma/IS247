@@ -19,8 +19,12 @@ class Circle1 extends Shape {
     }
 }
 
+//create a new Square class which extends from Shapr class
+//Add draw method and print a message
+//Create an object of Square class and display the result
+
 public class AbstractShape {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         Shape rectangel = new Rectangle();
         Shape shape = new Circle1();
