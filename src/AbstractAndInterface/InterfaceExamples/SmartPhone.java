@@ -22,7 +22,7 @@ interface Nokia {
 
 }
 
-//can you add interface windows and implement one of the method  in the SmartPhone class
+//can you add interface name Windows and implement one of the method  in the SmartPhone class
 public class SmartPhone implements Iphone, Android, BlackBerry, Nokia {
 
 
