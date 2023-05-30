@@ -8,7 +8,9 @@ public class Main {
         Student s = new Student();
 
         s.setName("Shiva Sharma");
+        s.setAge(70);
         System.out.println(s.getName());
+        System.out.println(s.getAge());
     }
 
 }
