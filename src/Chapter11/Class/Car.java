@@ -1,7 +1,10 @@
 package Chapter11.Class;
 
+
 public class Car {
     // Attributes (properties)
+
+    //company that makes the car
     private String make;
     private final String model;
     private final int year;
@@ -37,4 +40,9 @@ public class Car {
         this.make = make;
     }
     // Other getter and setter methods for model, year, and price...
+
+    public static void main(String[] args) {
+        //create an object here
+
+    }
 }

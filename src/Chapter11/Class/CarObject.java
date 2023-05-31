@@ -15,7 +15,7 @@ public class CarObject {
         CarObject myCar = new CarObject();
 
         // Setting attribute values
-        myCar.brand = "Toyota";
+        myCar.brand = "Tesla";
         myCar.color = "Red";
         myCar.year = 2022;
 
