@@ -9,12 +9,10 @@ class Employee {
         this.name = name;
 
     }
-
     public String toString() {
         return ("Employee ID" + id + "." + "Name " + name);
     }
 }
-
 public class ToStringExample {
     public static void main(String[] args) {
         Employee emp1 = new Employee(1, "Shiva Sharma");
