@@ -1,5 +1,4 @@
 package Chapter11.Refactor;
-
 public class Refactor {
     private String name;
     private int age;
