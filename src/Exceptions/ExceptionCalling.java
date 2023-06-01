@@ -3,14 +3,14 @@ package Exceptions;
 public class ExceptionCalling {
 
     public static void main(String[] args) {
-        A();
+        A(); //did error occur here
     }
 
     static void A() {
-        B();
+        B(); //did error occur here
     }
 
     static void B() {
-        System.out.println(1 / 0);
+        System.out.println(1 / 0); //error
     }
 }
