@@ -17,6 +17,8 @@ public class Exceptions {
             // System.out.println("Error" + e + " cannot divide by zero");
             // This line will show exactly what went wrong
             e.printStackTrace();
+        } finally {
+            System.out.println("Finally block executed");
         }
 
     }
