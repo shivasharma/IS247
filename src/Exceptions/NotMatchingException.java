@@ -11,6 +11,5 @@ public class NotMatchingException {
         } finally {
             System.out.println("What is wrong with this code?");
         }
-
     }
 }
