@@ -4,11 +4,19 @@ package OOP.Inheritance;
  * Created by Shiva on 7/29/2017.
  */
 
-
 class Animal {
+
+    Animal() {
+
+    }
+
     void eat() {
 
         System.out.println("animal is eating...");
+    }
+
+    void fly() {
+
     }
 
     void sleep() {
@@ -23,8 +31,12 @@ class Dog extends Animal {
     }
 }
 
+class Cat extends Animal {
+
+}
+
 class BabyDog1 extends Dog {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Animal a = new BabyDog1();
         a.eat();
 

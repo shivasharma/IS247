@@ -5,19 +5,23 @@ package OOP.Inheritance;
  */
 
 class Employee {
+    private int id;
+    private String firstname;
     float salary = 40000;
+
     void name() {
         System.out.println("Hello Java");
     }
 }
 
-class Apple {
-
-}
 
 public class Programmer extends Employee {
 
+    private int id;
+    private String firstname;
+
     int bonus = 10000;
+
     public static void main(String[] args) {
 
         Programmer p = new Programmer();

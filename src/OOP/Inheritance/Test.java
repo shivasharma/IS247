@@ -51,6 +51,7 @@ class MountainBike extends Bicycle {
 
     // the MountainBike subclass adds one more method
     public void setHeight(int newValue) {
+
         seatHeight = newValue;
     }
 
@@ -66,11 +67,11 @@ class MountainBike extends Bicycle {
 
 // driver class
 public class Test {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         //MountainBike mb = new MountainBike(3, 100, 25);
         Bicycle b=new MountainBike(10,20,30);
-        System.out.println(b.toString());
+        System.out.println(b);
         //System.out.println(mb.toString());
 
     }
