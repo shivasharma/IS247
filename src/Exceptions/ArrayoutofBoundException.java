@@ -8,6 +8,7 @@ public class ArrayoutofBoundException {
         for (int i = 0; i <= ar.length; i++) {
             System.out.println(ar[i]);
         }
+        //Do we see the following line printed?
         System.out.println("The above code throw error");
     }
 }
