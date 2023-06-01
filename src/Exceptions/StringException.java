@@ -9,7 +9,7 @@ public class StringException {
     public static void main(String[] args) {
 
         // String reversedString=reverse("abc");
-        String reversedString = reverse(null);
+        String reversedString = reverse("shiva");
 
         System.out.println(reversedString);
     }
@@ -19,7 +19,7 @@ public class StringException {
             throw new NullPointerException("The string cannot be null");
         }
         StringBuilder sb = new StringBuilder(s);
-        System.out.printf("Recversing string %s... \n", s);
+        System.out.printf("Reversing string %s... \n", s);
         return sb.reverse().toString();
     }
 }
