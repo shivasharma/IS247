@@ -21,7 +21,6 @@ public class HandlingFileCheckedException {
             throw new RuntimeException(e);
         }
     }
-
     public static void FileReader() {
         try {
             FileReader fileReader = new FileReader("Test.txt");
@@ -32,12 +31,10 @@ public class HandlingFileCheckedException {
             throw new RuntimeException(e);
         }
     }
-
     //This is checked exception
     private static void doThat() throws IOException {
         throw new IOException();
     }
-
     //This is unchecked exceptions
     private static void doThis() throws IllegalArgumentException {
         throw new IllegalChannelGroupException();
