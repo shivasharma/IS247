@@ -24,7 +24,7 @@ public class Throwing {
     }
 
 
-    //thorows runtime exception
+    //throws runtime exception
     public static void setAge1(int age) throws IllegalArgumentException {
         if (age <= 0) {
             throw new IllegalArgumentException("Age cannot be zero");
