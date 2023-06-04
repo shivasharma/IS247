@@ -7,11 +7,13 @@ import java.io.IOException;
 import java.nio.channels.IllegalChannelGroupException;
 public class HandlingFileCheckedException {
     public static void main(String... args) {
-        WriteExceptionToLog wel = new WriteExceptionToLog();
-        FileInput();
-        FileReader();
+
+        MultipleCatchExamples();
+        //WriteExceptionToLog wel = new WriteExceptionToLog();
+        //FileInput();
+        //FileReader();
         // doThat();
-        doThis();
+        //doThis();
     }
     public static void FileInput() {
         try {
@@ -31,12 +33,34 @@ public class HandlingFileCheckedException {
             throw new RuntimeException(e);
         }
     }
+
     //This is checked exception
     private static void doThat() throws IOException {
         throw new IOException();
     }
+
     //This is unchecked exceptions
     private static void doThis() throws IllegalArgumentException {
         throw new IllegalChannelGroupException();
+    }
+
+    public static void MultipleCatchExamples() {
+        try {
+
+            int[] a = new int[5];
+            // int a[]=null;
+            // a[6]=7;
+            int i = 8;
+            int j = 0;
+            int k = i / j;
+            System.out.println("The output is" + k);
+
+        } catch (ArithmeticException e) {
+            System.out.println("Cannot divide by Zero");
+            System.out.println("More detail" + e);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.err.println("Array out of bound" + e);
+            System.err.println("Array Error" + e.getCause());
+        }
     }
 }
