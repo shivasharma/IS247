@@ -7,14 +7,16 @@ import java.io.IOException;
 
 public class HandlingFileCheckedException {
     public static void main(String... args) {
+        WriteExceptionToLog wel = new WriteExceptionToLog();
         FileInput();
-        FileReader();
+        // FileReader();
     }
 
     public static void FileInput() {
         try {
             FileInputStream fis = new FileInputStream("Test.txt");
         } catch (FileNotFoundException e) {
+            WriteExceptionToLog.writeExceptionToLog(e, e.getMessage());
             throw new RuntimeException(e);
         }
     }
