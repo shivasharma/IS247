@@ -24,7 +24,6 @@ public class InputMisMatchException {
             } catch (InputMismatchException ex) {
                 System.out.println("Try again  incorrect input an integer is required");
                 input.nextLine();
-
             }
 
         } while (continueInput);
