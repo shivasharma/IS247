@@ -22,6 +22,6 @@ public class LabTryCatch {
 
     }
        */
-        //The app should print abd
+        //What is the output of the code?
     }
 }
