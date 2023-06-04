@@ -1,5 +1,7 @@
 package Exceptions.ThrowingException;
 
+import java.io.IOException;
+
 public class Throwing {
     static double radius;
 
@@ -22,9 +24,26 @@ public class Throwing {
     }
 
 
+    //thorows runtime exception
+    public static void setAge1(int age) throws IllegalArgumentException {
+        if (age <= 0) {
+            throw new IllegalArgumentException("Age cannot be zero");
+        }
+        age = age;
+    }
+
+    //Checked exception
+    public static void setAge2(int age) throws IOException {
+        //check age
+        age = age;
+    }
+
     public static void main(String[] args) {
         //checkAgeThrow(14);
-        setRadius(-1);
+        //setRadius(-1);
+
+        setAge1(0);
+        //setAge2(20);
     }
 
 
