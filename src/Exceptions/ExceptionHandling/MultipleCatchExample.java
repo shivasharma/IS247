@@ -22,6 +22,8 @@ public class MultipleCatchExample {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.err.println("Array out of bound" + e);
             System.err.println("Array Error" + e.getCause());
+            //Handle null pointer exception here
+            //What will happen if we move this Exception in the beginning?
         } catch (Exception e) {
             System.err.println("This will handel all type of exception" + e);
 
