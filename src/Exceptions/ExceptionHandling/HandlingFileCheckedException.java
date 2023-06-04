@@ -4,14 +4,15 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
+import java.nio.channels.IllegalChannelGroupException;
 public class HandlingFileCheckedException {
     public static void main(String... args) {
         WriteExceptionToLog wel = new WriteExceptionToLog();
         FileInput();
-        // FileReader();
+        FileReader();
+        // doThat();
+        doThis();
     }
-
     public static void FileInput() {
         try {
             FileInputStream fis = new FileInputStream("Test.txt");
@@ -30,5 +31,15 @@ public class HandlingFileCheckedException {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    //This is checked exception
+    private static void doThat() throws IOException {
+        throw new IOException();
+    }
+
+    //This is unchecked exceptions
+    private static void doThis() throws IllegalArgumentException {
+        throw new IllegalChannelGroupException();
     }
 }
