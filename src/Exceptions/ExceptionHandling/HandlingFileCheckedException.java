@@ -61,6 +61,9 @@ public class HandlingFileCheckedException {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.err.println("Array out of bound" + e);
             System.err.println("Array Error" + e.getCause());
+        } catch (Exception e) {
+            System.err.println("This will handel all type of exception" + e);
+
         }
     }
 }
