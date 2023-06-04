@@ -7,10 +7,10 @@ import java.io.IOException;
 
 public class TryCatchSyntax {
     public static void main(String[] args) {
-        TrycathSyntax();
+        TrycatchSyntax();
     }
 
-    public static void TrycathSyntax() {
+    public static void TrycatchSyntax() {
         BufferedReader br = null;
         try {
             br = new BufferedReader(new FileReader("text.txt"));
