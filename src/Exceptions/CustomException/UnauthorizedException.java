@@ -1,5 +1,7 @@
 package Exceptions.CustomException;
-
+/*
+Custom Checked Exception
+ */
 public class UnauthorizedException extends Exception {
 
     public UnauthorizedException() {
@@ -8,6 +10,8 @@ public class UnauthorizedException extends Exception {
     public UnauthorizedException(String message) {
         super(message);
     }
+
+    //override the Exception class method that takes tow arguments  string message and Throwable throwable
 
     public static void main(String[] main) {
         UnauthorizedException un = new UnauthorizedException();
@@ -25,8 +29,9 @@ public class UnauthorizedException extends Exception {
             System.out.println("You can access the application");
         } else {
             //throw new UnauthorizedException();
-            throw new UnauthorizedException("You do not have permission to hand this error");
-
+            // throw new UnauthorizedException("You do not have permission to hand this error");
+            // throw new UnauthorizedException("This is my error message", new Throwable());
+            // throw new UnauthorizedException("Error", new RuntimeException());
         }
     }
 
