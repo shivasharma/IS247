@@ -13,7 +13,7 @@ interface Animal {
 
 public class InterfaceAnimal implements Animal {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         InterfaceAnimal m = new InterfaceAnimal();
         m.eat();
         m.travel();
@@ -34,8 +34,6 @@ public class InterfaceAnimal implements Animal {
         System.out.println("Tiger");
     }
 
-    public int noOfLegs() {
-        return 0;
-    }
+
 }
 
