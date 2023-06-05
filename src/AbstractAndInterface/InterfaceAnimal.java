@@ -8,7 +8,7 @@ interface Animal {
 
     void travel();
 
-    void MamalType();
+    void mamalName();
 }
 
 public class InterfaceAnimal implements Animal {
@@ -17,20 +17,18 @@ public class InterfaceAnimal implements Animal {
         InterfaceAnimal m = new InterfaceAnimal();
         m.eat();
         m.travel();
-        m.MamalType();
+        m.mamalName();
     }
 
     public void eat() {
         System.out.println("Mammal eats");
     }
 
-
     public void travel() {
         System.out.println("Mammal travels");
     }
 
-    public void MamalType() {
-
+    public void mamalName() {
         System.out.println("Tiger");
     }
 
