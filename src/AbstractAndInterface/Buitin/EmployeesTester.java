@@ -15,7 +15,7 @@ class Employees implements Iterable {
         str.add("fun");
     }
 
-    // if we are implementing Iterable interface, the we
+    // if we are implementing Iterable interface,we
 // need to define the iterator() method of Iterable
 // interface
     public Iterator<String> iterator() {
