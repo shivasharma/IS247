@@ -15,7 +15,7 @@ public class UnauthorizedException extends Exception {
         try {
             un.login("user", "password");
         } catch (UnauthorizedException e) {
-            System.out.println("You got and exception" + e);
+            System.out.println("You got and exception" + e.getMessage());
         }
 
     }
