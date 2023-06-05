@@ -9,12 +9,12 @@ public class CheckedVSUncheckedException {
     public static void main(String[] main) {
         //checked exception
         // readFile("abc.txt");
-        // readFileusingThrow("shiva.txt");
+        //readFileusingThrows("shiva.txt");
 
         //unchecked exception null pointer exception is unchecked exception
-        //String name=null;
-        //unCheckedException(name);
-        // unCheckedException(name,"test");
+        String name = null;
+        unCheckedException(name);
+        //unCheckedException(name,"test");
     }
 
 
@@ -22,6 +22,7 @@ public class CheckedVSUncheckedException {
     private static void readFile(String filename) {
         //This code shows checked exception
         //(FileReader reader = new FileReader(filename)){}
+
         try (FileReader reader = new FileReader(filename)) {
         } catch (FileNotFoundException e) {
             //throw new RuntimeException(e);
@@ -29,6 +30,8 @@ public class CheckedVSUncheckedException {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+
     }
 
     private static void readFileusingThrows(String filename) throws FileNotFoundException {
@@ -37,14 +40,25 @@ public class CheckedVSUncheckedException {
     }
 
     private static void unCheckedException(String mymessage) {
+
         System.out.println(mymessage.length());
-    }
-
-    private static void unCheckedException(String mymessage, String secondmessage) {
-        //  throw new RuntimeException("This is error"); //this is unchecked exception must be handled by try catch
-        //  throw new Exception("This is error from checked exception"); //this is checked exception
 
     }
+   /*
+    private static void unCheckedException(String mymessage) {
 
+       throw new Exceptioon(); checked exception
+       throw new RuntimeException(); // unchecked exception
+    }
+    */
 
+   /*
+    private static void unCheckedException(String mymessage) {
+        try{
+        System.out.println(mymessage.length());
+        }catch (NullPointerException npe){
+            System.out.println("String cannot be null");
+        }
+    }
+    */
 }
