@@ -11,6 +11,6 @@ public class ExceptionCalling {
     }
 
     static void B() {
-        System.out.println(1 / 0); //error
+        System.out.println(1 / 0); //did error occur here
     }
 }
