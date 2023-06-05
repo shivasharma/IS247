@@ -3,7 +3,7 @@ package AbstractAndInterface;
 /**
  * Created by Shiva on 5/30/2023.
  * //Class Lab
- * //create a new Square class which extends from Shapr class
+ * //create a new Square class which extends from Shape class
  * //Add draw method and print a message
  * //Create an object of Square class and display the result
  */
