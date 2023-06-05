@@ -30,6 +30,7 @@ public class AbstractShape {
         Shape rectangel = new Rectangle();
         Shape shape = new Circle1();
         shape.draw();
+        rectangel.draw();
 
     }
 
