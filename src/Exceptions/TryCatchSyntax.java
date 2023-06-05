@@ -13,7 +13,7 @@ public class TryCatchSyntax {
     public static void TrycatchSyntax() {
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new FileReader("text.txt"));
+            br = new BufferedReader(new FileReader("files/text.txt"));
             String line;
             while ((line = br.readLine()) != null) {
                 System.out.println(line);
