@@ -1,23 +1,17 @@
 package AbstractAndInterface;
-
-
 interface Animal {
     void eat();
-
     void travel();
-
     void mamalName();
     //implement this method to print
     //void run();
 }
-
 public class InterfaceAnimal implements Animal {
 
     public static void main(String[] args) {
         /* Can i do this?
          Animal animal=new Animal();
         */
-
         InterfaceAnimal m = new InterfaceAnimal();
         m.eat();
         m.travel();
