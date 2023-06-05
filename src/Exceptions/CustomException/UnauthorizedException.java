@@ -15,7 +15,7 @@ public class UnauthorizedException extends Exception {
         try {
             un.login("user", "password");
         } catch (UnauthorizedException e) {
-            System.out.println("You got and exception" + e.getMessage());
+            System.out.println("You got the exception " + e.getMessage());
         }
 
     }
@@ -24,7 +24,9 @@ public class UnauthorizedException extends Exception {
         if (userName.equals("user") && password.equals("pass")) {
             System.out.println("You can access the application");
         } else {
+            //throw new UnauthorizedException();
             throw new UnauthorizedException("You do not have permission to hand this error");
+
         }
     }
 
