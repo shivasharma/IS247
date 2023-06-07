@@ -17,7 +17,7 @@ interface A {
 }
 
 abstract class B implements A {
-    //what happends if we remove this method
+    //what will happen if we remove this method?
     public void c() {
         System.out.println("I am C");
     }
@@ -43,7 +43,7 @@ class M extends B {
 }
 
 public class AbstractandInterface {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         A a = new M();
         a.a();
         a.b();
