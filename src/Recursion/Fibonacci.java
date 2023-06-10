@@ -22,6 +22,7 @@ public class Fibonacci {
         if (num == 1 || num == 2) return 1;
 
         //when it is three return the number finding three minus two.
+        //f(n)=f(n-1) +f(n-2)
         return fibonacci(num - 1) + fibonacci(num - 2);
 
 
