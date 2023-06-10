@@ -2,8 +2,9 @@ package Recursion;
 
 public class InfiniteRecursion {
     public static void main(String[] args) {
-        //printIS247();
-        printIS247(5);
+        printIS247();
+        //what will happen if we add 1000000 as a value
+        // printIS247(5);
     }
 
     //java keeps adding call to the methods (Callstack)
