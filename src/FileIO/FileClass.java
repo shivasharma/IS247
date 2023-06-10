@@ -10,7 +10,7 @@ import java.util.Date;
 public class FileClass {
     public static void main(String[] args) throws IOException {
 
-        File file = new File("C:\\temp\\java.txt");
+        File file = new File("C:\\temp");
 
         System.out.println("Does  it exist " + file.exists());
         System.out.println("The file has " + file.length() + "bytes");
@@ -20,7 +20,7 @@ public class FileClass {
         System.out.println("Is is absolute " + file.isAbsolute());
         System.out.println("Absolute path is " + file.getAbsolutePath());
         System.out.println("Last modified on " + new Date(file.lastModified()));
-
+        System.out.println("Full path file " + file.getCanonicalPath());
         File relativeFile = new File("src/FileIO/relativepath.txt");
         System.out.println("Relative Path " + relativeFile.getPath());
         //A canonical pathname is both absolute and unique
