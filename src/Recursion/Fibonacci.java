@@ -2,9 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-/**
- * Created by Shiva on 6/24/2017.
- */
+
 public class Fibonacci {
 
     public static void main(String[] args) {
@@ -19,7 +17,8 @@ public class Fibonacci {
     }
 
     private static int fibonacci(int num) {
-        //check  whether num is on first or second instance of  my nubmers
+        //check  whether num is on first or second instance of  my numbers
+        //if condition checking for the basecase
         if (num == 1 || num == 2) return 1;
 
         //when it is three return the number finding three minus two.
