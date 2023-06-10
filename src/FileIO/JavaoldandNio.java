@@ -5,14 +5,41 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class JavaoldandNio {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
         String fileName = "files/data.csv";
         System.out.println("Using old methods");
-        printFileSize(fileName);
+        //  printFileSize(fileName);
+
         System.out.println("Using nio.file methods");
-        printFileSizeNIO(fileName);
+        // printFileSizeNIO(fileName);
+
+        //CreateFileUsingNIO();
+
+        ReadFileUsingNIO();
+
+    }
+
+    private static void ReadFileUsingNIO() throws IOException {
+        Path p = Paths.get("files/nio.txt");
+        List<String> lines = Files.readAllLines(p);
+        lines.forEach(System.out::println);
+
+        System.out.println("Printing using for loop");
+        for (int i = 0; i < lines.size(); i++) {
+            System.out.println(lines.get(i));
+        }
+    }
+
+    private static void CreateFileUsingNIO() throws IOException {
+        Path p = Paths.get("files/nio.txt");
+        Path path1 = Files.createFile(p);
+        String content = "IS 247 Programming";
+        Files.write(path1, content.getBytes());
+        System.out.println("Data written as byte array");
     }
 
     public static void printFileSizeNIO(String fileName) {
@@ -20,7 +47,6 @@ public class JavaoldandNio {
         Path path = Paths.get(fileName);
 
         try {
-
             // size of a file (in bytes)
             long bytes = Files.size(path);
             System.out.printf("%,d bytes%n", bytes);
@@ -55,5 +81,6 @@ public class JavaoldandNio {
         }
 
     }
+
 
 }
