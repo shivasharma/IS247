@@ -9,7 +9,7 @@ public class FileInputUsingScanner {
         Scanner infile;
         try {
             //rename the file name scanner1.txt
-            //
+            // What will happen if we add string to the scanner.txt file
             infile = new Scanner(new File("files/scanner.txt"));
             int input;
             while (infile.hasNext()) {
