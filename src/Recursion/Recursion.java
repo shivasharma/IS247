@@ -32,6 +32,7 @@ public class Recursion {
     }
 
     public static void reduceByOne(int n) {
+        //base case checking condition
         if (n >= 0) {
             reduceByOne(n - 1);
         }
