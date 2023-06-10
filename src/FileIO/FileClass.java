@@ -1,13 +1,14 @@
 package FileIO;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Date;
 
 /**
  * Created by Shiva on 7/23/2017.
  */
 public class FileClass {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         File file = new File("C:\\temp\\java.txt");
 
@@ -20,10 +21,11 @@ public class FileClass {
         System.out.println("Absolute path is " + file.getAbsolutePath());
         System.out.println("Last modified on " + new Date(file.lastModified()));
 
-        File relativeFile = new File("relativepath.txt");
-
+        File relativeFile = new File("src/FileIO/relativepath.txt");
         System.out.println("Relative Path " + relativeFile.getPath());
-        System.out.println("Relative file " + relativeFile.isAbsolute());
+        //A canonical pathname is both absolute and unique
+        System.out.println("Full path file " + relativeFile.getCanonicalPath());
+
 
     }
 }
