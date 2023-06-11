@@ -5,8 +5,6 @@ package Javadocs;
  * Person class for storing person information
  * Person call with fields,
  */
-
-
 public class Person {
     /**
      * name of a person
@@ -16,10 +14,10 @@ public class Person {
     /**
      * This is a construction to initialize person object
      *
-     * @param name inital person name
+     * @param names inital person name
      */
-    public Person(String name) {
-        this.name = name;
+    public Person(String names) {
+        this.name = names;
     }
 
     /**
