@@ -1,4 +1,4 @@
-package Collections;
+package Collections.LinkedList;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
@@ -23,7 +23,6 @@ public class LinkedListExample {
 
         ListIterator iterator = states.listIterator(states.size());
         while (iterator.hasPrevious()) {
-
             System.out.println(iterator.previous());
         }
     }
