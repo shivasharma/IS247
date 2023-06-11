@@ -14,10 +14,10 @@ public class Person {
     /**
      * This is a construction to initialize person object
      *
-     * @param names inital person name
+     * @param name inital person name
      */
-    public Person(String names) {
-        this.name = names;
+    public Person(String name) {
+        this.name = name;
     }
 
     /**
