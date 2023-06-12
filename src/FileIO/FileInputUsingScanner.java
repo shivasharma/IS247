@@ -12,8 +12,10 @@ public class FileInputUsingScanner {
             // What will happen if we add string to the scanner.txt file
             infile = new Scanner(new File("files/scanner.txt"));
             int input;
+             //String input;
             while (infile.hasNext()) {
                 input = infile.nextInt();
+                // input=infile.next();
                 System.out.println(input);
             }
         } catch (FileNotFoundException e) {
