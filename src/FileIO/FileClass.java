@@ -1,6 +1,7 @@
 package FileIO;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
 
@@ -10,10 +11,25 @@ import java.util.Date;
 public class FileClass {
     public static void main(String[] args) throws IOException {
 
-        File file = new File("C:\\temp");
+        File();
+        WriteFile();
+    }
 
+    private static void WriteFile() throws IOException {
+        File file = new File("files/fileexample.txt");
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+        FileOutputStream fos = new FileOutputStream(file);
+        String texttowrite = "This is IS247 programming";
+        fos.write(texttowrite.getBytes());
+        fos.flush();
+        fos.close();
+    }
+
+    private static void File() throws IOException {
+        File file = new File("C:\\temp");
         System.out.println("Does  it exist " + file.exists());
-        System.out.println("The file has " + file.length() + "bytes");
         System.out.println("Can it be read? " + file.canRead());
         System.out.println("Can it be written " + file.canWrite());
         System.out.println("Is it a directory " + file.isDirectory());
@@ -25,7 +41,5 @@ public class FileClass {
         System.out.println("Relative Path " + relativeFile.getPath());
         //A canonical pathname is both absolute and unique
         System.out.println("Full path file " + relativeFile.getCanonicalPath());
-
-
     }
 }
