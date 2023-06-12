@@ -1,6 +1,7 @@
 package FileIO;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
@@ -11,8 +12,23 @@ import java.util.Date;
 public class FileClass {
     public static void main(String[] args) throws IOException {
 
-        File();
-        WriteFile();
+        // File();
+        //WriteFile();
+        ReadFile();
+    }
+
+    private static void ReadFile() throws IOException {
+        FileInputStream file = new FileInputStream("files/fileexample.txt");
+        //file.read(); //This will return ASCII charater
+        //System.out.println(file.read());
+        // System.out.println((char)file.read());
+        int i = file.read();
+        while (!(i == -1)) {
+            char c = (char) i;
+            System.out.print(c);
+            i = file.read();
+        }
+        file.close();
     }
 
     private static void WriteFile() throws IOException {
