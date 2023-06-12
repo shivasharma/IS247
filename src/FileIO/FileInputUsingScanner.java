@@ -14,6 +14,7 @@ public class FileInputUsingScanner {
             int input;
              //String input;
             while (infile.hasNext()) {
+                //What will happen it the scanner.txt has string values?
                 input = infile.nextInt();
                 // input=infile.next();
                 System.out.println(input);
