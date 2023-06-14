@@ -59,7 +59,7 @@ public class Factorial {
     }
 
     static int factorialRec(int n) {
-        //this is basecondition what will happend if we remove the if condition
+        //this is base condition what will happend if we remove the if condition
         if (n == 0) {
             return 1;
         }
