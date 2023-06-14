@@ -7,11 +7,20 @@ public class Recursion {
 
         int[] numberList = {10, 20, 30, 40, 50};
 
-       // reversePrint(numberList);
-
         System.out.println();
-        reduceByOne(10);
+        // reduceByOne(50000);
+        reduceByOneUsingLoop(500000);
+        //reversePrint(numberList);
     }
+
+    public static void reduceByOne(int n) {
+        //base case checking condition
+        if (n >= 0) {
+            reduceByOne(n - 1); //recursion function
+        }
+        System.out.println("Completed call using rec:" + n);
+    }
+
 
     private static void reversePrint(int[] numbers) {
         //check for a length of numbers which is a basecase
@@ -29,11 +38,20 @@ public class Recursion {
 
     }
 
-    public static void reduceByOne(int n) {
+
+    public static void reduceByOneUsingLoop(int j) {
         //base case checking condition
-        if (n >= 0) {
-            reduceByOne(n - 1);
+        long now = System.currentTimeMillis();
+        if (j >= 0) {
+
+            int count = 0;
+            while (count < j) {
+                count += 1;
+                System.out.println("Completed call " + count + " using loop");
+            }
+
+            System.out.println("Loop is completed in millisec " + (System.currentTimeMillis() - now));
+
         }
-        System.out.println("Completed call:" + n);
     }
 }
