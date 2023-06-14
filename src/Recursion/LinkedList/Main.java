@@ -22,10 +22,7 @@ public class Main {
 
     private static void printList(Node n) {
         if (n != null) {
-
-
             System.out.println(n.value + " ");
-
             printList(n.next);
 
         }

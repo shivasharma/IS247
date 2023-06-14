@@ -15,12 +15,10 @@ public class Recursion {
 
     private static void reversePrint(int[] numbers) {
         //check for a length of numbers which is a basecase
-
         if (numbers.length == 0) return;
 
         //take out first element and reverse the numbers list
         int[] a = new int[numbers.length - 1];
-
         //check the length -1 of a number but not unit end
         //skip first element and move rest into new array
         System.arraycopy(numbers, 1, a, 0, numbers.length - 1);
