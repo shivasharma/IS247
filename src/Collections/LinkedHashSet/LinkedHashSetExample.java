@@ -1,5 +1,6 @@
 package Collections.LinkedHashSet;
 
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -22,5 +23,12 @@ public class LinkedHashSetExample {
         set1.add("New York");
         set1.add(null);
         System.out.println(set1);
+
+        //Traversing elements
+        Iterator<String> itr = set1.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+
+        }
     }
 }
