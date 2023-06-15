@@ -1,10 +1,10 @@
-package Collections;
+package Collections.TreeSet;
 
 import java.util.Iterator;
 import java.util.TreeSet;
 
 public class TreeSetExample {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //Creating and adding elements
         TreeSet<String> al = new TreeSet<String>();
         al.add("IS147");
@@ -12,6 +12,7 @@ public class TreeSetExample {
         al.add("MS147");
         al.add("CS247");
         al.add("IS247");
+        System.out.println(al);
         //Traversing elements
         Iterator<String> itr = al.iterator();
         while (itr.hasNext()) {
