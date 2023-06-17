@@ -5,10 +5,11 @@ package Generic;
  */
 public class GenericMethodExample {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         Integer[] ints = {10, 20, 30, 40, 50};
         String[] daysOfWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+
         print(ints);
         print(daysOfWeek);
         nonGenericPrint(ints);

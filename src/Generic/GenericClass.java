@@ -5,7 +5,11 @@ import java.util.Iterator;
 
 public class GenericClass {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+        GenericsEg1();
+    }
+
+    private static void GenericsEg1() {
         ArrayList<String> list = new ArrayList<String>();
         list.add("IS");
         list.add("247");
