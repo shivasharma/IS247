@@ -1,4 +1,4 @@
-package Generic;
+package Generic.GenericeInterfaceExamples;
 
 //Generic interface definition
 interface DemoInterface<T1, T2> {
