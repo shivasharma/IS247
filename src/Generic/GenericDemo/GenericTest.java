@@ -10,5 +10,12 @@ public class GenericTest {
         //int data=(int)d1.getData();
 
 
+        DataGenerice<String> d3 = new DataGenerice<>("This is Generic");
+        System.out.println(d3);
+
+        DataGenerice<Integer> d4 = new DataGenerice<>(1);
+        System.out.println(d4);
+
+
     }
 }

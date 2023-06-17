@@ -20,7 +20,7 @@ public class Data {
 
     /*
     //What will happend is we replace this with Object datatype
-
+    // How do we handle if we need float/double/integer/String
     private Object data;
     public Data(Object data){
         this.data=data;
