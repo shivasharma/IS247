@@ -21,6 +21,6 @@ public class DemoInterfaceClass implements DemoInterface<String, String> {
     }
 
     public String doReverseOperation(String t) {
-        return ("IS247 Generics");
+        return t;
     }
 }
