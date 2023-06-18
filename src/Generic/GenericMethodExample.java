@@ -13,6 +13,8 @@ public class GenericMethodExample {
         print(daysOfWeek);
         nonGenericPrint(ints);
         //nonGenericPrint(daysOfWeek);
+        System.out.println(add("This is string"));
+        System.out.println(add(1));
     }
 
     //Generic Method that will print the result based on datatype provided by the users
