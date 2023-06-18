@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WildcardDemo {
+    //compare this method below with wildcard
     public static <T> void displayData(List<T> l) {
         for (T t : l) {
             System.out.println(t);
