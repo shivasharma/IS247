@@ -70,6 +70,22 @@ public class LowerboundwildCardGeneircs {
         printListItems3(list4);
 
 
+        Number n = 12;
+        Integer i = 30;
+        List<?> li = new ArrayList<>();
+        // li.add(12);
+        List<? extends Number> l2 = new ArrayList<Integer>();
+        // l2.add(12); //cannot do the write here
+        //l2.add(n);
+
+        List<? extends Number> l3 = new ArrayList<Integer>();
+        List<? super Integer> l4 = new ArrayList<Integer>();
+        l4.add(i);
+        //l4.add(n); //cannot do this becuase of the lower bound
+        List<? super Integer> l5 = new ArrayList<Number>();
+        l5.add(i);
+        // l3.add(n);
+
     }
 
 
