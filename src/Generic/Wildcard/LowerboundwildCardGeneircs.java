@@ -11,7 +11,7 @@ public class LowerboundwildCardGeneircs {
         }
     }
 
-    //Work for Number and any of its sub types.
+    //Work for Number and any of its sub types. Integer is a subtype of number. Number is a supertype
     static void printListItems2(List<? super Integer> list) {
         for (Object num : list) {
             System.out.println(num);
@@ -25,26 +25,22 @@ public class LowerboundwildCardGeneircs {
         list1.add(2);
         list1.add(3);
 
+        //Only accept Integer type list.
+        System.out.println("Print of List of Integer type" +
+                " using printListItems1 method:");
+        printListItems1(list1);
+
         //Arraylist of Number type.
         //Number is a supertype of integer
-        List<Number> list2 = new ArrayList<Number>();
+        List<Number> list2 = new ArrayList<>();
         list2.add(1.4);
         list2.add(2.3);
         list2.add(3.4);
 
-        //Only accept Integer type list.
-        System.out.println("Print of List of Integer type" +
-                " using squareOfListItems1 method:");
-        printListItems1(list1);
-
-        //Accept Integer and any of its super types.
-        System.out.println("Print of List of Integer type" +
-                " using squareOfListItems2 method:");
-        printListItems2(list1);
-
         System.out.println("Print of List of Number type using" +
-                " squareOfListItems2 method:");
+                " printListItems2 method:");
         printListItems2(list2);
+
 
     }
 
