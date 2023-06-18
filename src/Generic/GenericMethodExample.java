@@ -19,6 +19,7 @@ public class GenericMethodExample {
 
     //Generic Method that will print the result based on datatype provided by the users
     //By defining the type <E > before the return type
+    //Check collection class to find more generic methods
     public static <E> String add(E data) {
         return "Data is : " + data;
     }
