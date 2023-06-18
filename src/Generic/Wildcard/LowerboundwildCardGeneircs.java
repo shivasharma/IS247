@@ -1,4 +1,4 @@
-package Generic;
+package Generic.Wildcard;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,17 +15,15 @@ public class LowerboundwildCardGeneircs {
     static void printListItems2(List<? super Integer> list) {
         for (Object num : list) {
             System.out.println(num);
-
         }
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //Arraylist of Integer type.
         List<Integer> list1 = new ArrayList<Integer>();
         list1.add(1);
         list1.add(2);
         list1.add(3);
-
 
         //Arraylist of Number type.
         List<Number> list2 = new ArrayList<Number>();
