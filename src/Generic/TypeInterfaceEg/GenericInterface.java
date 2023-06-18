@@ -10,7 +10,7 @@ class GenericClass<T> implements GenericInterface<T> {
 //class NormalClass implements  GenericInterface<T>{
 
 //}
-//Non generic class must specify the specific to implement
+//Non generic class must specify the specific to implemention
 interface Iinterface<T> {
 }
 
