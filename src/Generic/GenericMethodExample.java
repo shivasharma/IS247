@@ -9,10 +9,10 @@ public class GenericMethodExample {
 
         Integer[] ints = {10, 20, 30, 40, 50};
         String[] daysOfWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-
         print(ints);
         print(daysOfWeek);
         nonGenericPrint(ints);
+        //nonGenericPrint(daysOfWeek);
     }
 
     //Generic Method that will print the result based on datatype provided by the users
@@ -22,7 +22,6 @@ public class GenericMethodExample {
         }
         System.out.println(" ");
     }
-
 
     //This is nonGeneric Print method that take integer array
     public static void nonGenericPrint(Integer[] list) {
