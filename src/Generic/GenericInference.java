@@ -8,7 +8,7 @@ public class GenericInference {
 
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         GenericsTypeClass<String> g1 = new GenericsTypeClass<>();
         g1.set("Shiva");
 
@@ -35,5 +35,7 @@ public class GenericInference {
         }
 
     }
+
+
 }
 
