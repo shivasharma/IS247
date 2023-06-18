@@ -18,6 +18,12 @@ public class LowerboundwildCardGeneircs {
         }
     }
 
+    static void printListItems3(List<? super Double> list) {
+        for (Object num : list) {
+            System.out.println(num);
+        }
+    }
+
     public static void main(String[] args) {
         //Arraylist of Integer type.
         List<Integer> list1 = new ArrayList<Integer>();
@@ -40,6 +46,28 @@ public class LowerboundwildCardGeneircs {
         System.out.println("Print of List of Number type using" +
                 " printListItems2 method:");
         printListItems2(list2);
+
+        //Arraylist of Integer type.
+        List<Integer> list3 = new ArrayList<Integer>();
+        list3.add(1);
+        list3.add(2);
+        list3.add(3);
+
+        //Only accept Integer type list.
+        System.out.println("Print of List of Integer type" +
+                " using printListItems1 method:");
+        printListItems1(list3);
+
+        //Arraylist of Integer type.
+        List<Double> list4 = new ArrayList<>();
+        list4.add(1.1);
+        list4.add(2.2);
+        list4.add(3.4);
+
+        //Only accept Integer type list.
+        System.out.println("Print of List of Double type" +
+                " using printListItems3 method:");
+        printListItems3(list4);
 
 
     }
