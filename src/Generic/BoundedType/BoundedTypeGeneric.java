@@ -1,4 +1,4 @@
-package Generic;
+package Generic.BoundedType;
 
 
 class Stats<T extends Number> {
@@ -26,13 +26,13 @@ public class BoundedTypeGeneric {
     public static void main(String[] args) {
 
 
-        Integer i1[] = {10, 20, 30, 40};
+        Integer[] i1 = {10, 20, 30, 40};
         //extending to any number type ie integer
         Stats<Integer> i = new Stats<Integer>(i1);
         double op = i.avg();
         System.out.println("Average is " + op);
 
-        Double dnums[] = {10.5, 20.5, 30.5, 40.5};
+        Double[] dnums = {10.5, 20.5, 30.5, 40.5};
         Stats<Double> doublenumber = new Stats<Double>(dnums);
         double result = doublenumber.avg();
         System.out.println("Double number average is " + result);
