@@ -16,6 +16,7 @@ public class GenericMethodExample {
     }
 
     //Generic Method that will print the result based on datatype provided by the users
+    //By defining the type <E > before the return type
     public static <E> void print(E[] list) {
         for (E element : list) {
             System.out.println(element + " ");
