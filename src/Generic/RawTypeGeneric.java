@@ -12,7 +12,6 @@ public class RawTypeGeneric {
         withRawType();
         withParameterizedType();
 
-
     }
 
     void withRawType() {
@@ -35,7 +34,7 @@ public class RawTypeGeneric {
     }
 
     private void log(Object aMessage) {
-        System.out.println(String.valueOf(aMessage));
+        System.out.println(aMessage);
     }
 
     private void rawTypeIssue() {
@@ -44,6 +43,7 @@ public class RawTypeGeneric {
         names.add("Mary");
         names.add(Boolean.FALSE);
         System.out.println(names);
+        System.out.println("test");
     }
 
 
