@@ -4,7 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WildcardDemo {
-    public static void displayData(List<?> l) {
+    public static <T> void displayData(List<T> l) {
+        for (T t : l) {
+            System.out.println(t);
+        }
+    }
+
+    // cannot use ? only for type
+    public static void displayDataWildCard(List<?> l) {
         for (Object t : l) {
             System.out.println(t);
         }
@@ -15,5 +22,7 @@ public class WildcardDemo {
         list.add((10));
         list.add(20);
         displayData(list);
+        System.out.println("Print using  wildcard");
+        displayDataWildCard(list);
     }
 }
