@@ -26,6 +26,7 @@ public class LowerboundwildCardGeneircs {
         list1.add(3);
 
         //Arraylist of Number type.
+        //Number is a supertype of integer
         List<Number> list2 = new ArrayList<Number>();
         list2.add(1.4);
         list2.add(2.3);
@@ -46,5 +47,6 @@ public class LowerboundwildCardGeneircs {
         printListItems2(list2);
 
     }
+
 
 }
