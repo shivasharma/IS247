@@ -7,7 +7,9 @@ import java.util.List;
 public class ArrayListMethods {
     public static void main(String[] args) throws IOException {
         ArrayListExample1();
+        //ArrayListExampleSolution();
         //ArrayListExample2();
+
     }
 
 
@@ -37,6 +39,18 @@ public class ArrayListMethods {
          */
         words.remove(0);
 
+
+    }
+
+    private static void ArrayListExampleSolution() {
+        //This is Generic type
+        ArrayList<String> words = new ArrayList<String>();
+        words.add("IS");
+        words.add("247");
+        words.add("Java");
+        words.add("Programming");
+        String item1 = words.get(2);
+        System.out.println(item1);
 
     }
 
