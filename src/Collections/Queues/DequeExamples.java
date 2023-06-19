@@ -6,8 +6,10 @@ import java.util.Deque;
 public class DequeExamples {
     public static void main(String[] args) {
         // MessageStack();
+        LIFOExample();
+    }
 
-
+    private static void LIFOExample() {
         Deque<String> messageStack = new ArrayDeque<>();
         messageStack.push("Message1");
         messageStack.push("Message2");
@@ -19,6 +21,7 @@ public class DequeExamples {
         System.out.println(messageStack.pop());
 
         print(messageStack);
+        messageStack.push("Message5");
         System.out.println(messageStack.peek());
         //LIFO order
     }
