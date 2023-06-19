@@ -6,6 +6,41 @@ import java.util.List;
 
 public class ArrayListMethods {
     public static void main(String[] args) throws IOException {
+        ArrayListExample1();
+        //ArrayListExample2();
+    }
+
+
+    private static void ArrayListExample1() {
+        //This is rawtype
+        ArrayList words = new ArrayList();
+        words.add("IS");
+        words.add("247");
+        words.add(10);
+        words.add('c');
+        words.add(12);
+        words.add(12.6);
+        // String item1=words.get(0);
+        String item1 = (String) words.get(0);
+
+        //How about add object
+        Object obj1 = words.get(2);
+        Object obj2 = words.get(4);
+        //Need to define the datatype
+        // System.out.println(obj1 +obj2);
+
+         /*
+         int obj3=(int)words.get(2);
+         int obj4=(int)words.get(4);
+         //Need to define the datatype
+         System.out.println((int)obj3 +(int)obj4);
+         */
+        words.remove(0);
+
+
+    }
+
+    private static void ArrayListExample2() {
         // size of ArrayList
         int n = 5;
 
