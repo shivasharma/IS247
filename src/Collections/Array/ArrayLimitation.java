@@ -1,13 +1,13 @@
-package Collections;
+package Collections.Array;
 
 public class ArrayLimitation {
     public static void main(String[] args) throws Exception {
-        String num = "234";
-        char num1 = num.charAt(1);
-        char num2 = num.charAt(2);
+        String num = "2";
+        char num1 = num.charAt(0);
+        char num2 = num.charAt(0);
         int result = num1 + num2;
         System.out.println(num1);
-        System.out.println(result);
+        //  System.out.println(result);
 
 
         char ch = '3';
@@ -19,5 +19,18 @@ public class ArrayLimitation {
 
         System.out.println("The ASCII value of " + ch + " is: " + ascii);
         System.out.println("The ASCII value of " + ch + " is: " + castAscii);
+
+
+        int[] array = new int[3];
+        array[0] = 1;
+        array[1] = 2;
+        array[2] = 3;
+        // array[3]=4;
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+
     }
+
+
 }
