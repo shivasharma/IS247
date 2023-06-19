@@ -20,10 +20,11 @@ public class QueueExample {
         queue.add("Daniel");
         queue.add("Katy");
         queue.offer("Smith");
-        System.out.println("Removing item: " + queue.remove());
+
         for (String s : queue) {
             System.out.println(s);
         }
+        System.out.println("Removing item: " + queue.remove());
         System.out.println("**********************************");
         while (!queue.isEmpty()) {
             System.out.println(queue.remove());
@@ -35,18 +36,18 @@ public class QueueExample {
 
         for (int i = 0; i <= 10; i++) {
 
-            queue.add(i);
+            queue.add(i); //add elements to the queue
         }
         System.out.println("Element in the queue " + queue);
 
         int removed = queue.remove();
         System.out.println(removed + " was removed");
 
-        int top = queue.peek();
+        int top = queue.peek();//Retrives, but does not remove the head of this queue
         System.out.println(" top element is " + top);
         System.out.println(queue);
 
-        queue.poll();
+        queue.poll();//Retrives and removes the heado of this queue or return null if empty
         System.out.println("After poll" + queue);
     }
 
