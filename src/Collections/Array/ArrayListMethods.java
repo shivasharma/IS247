@@ -1,4 +1,4 @@
-package Collections;
+package Collections.Array;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -38,7 +38,9 @@ public class ArrayListMethods {
 
 
         //declaring ArrayList with initial size n
+        //cannot declare with primitive datatype only class
         ArrayList<Integer> arraylist = new ArrayList<Integer>();
+
         arraylist.add(1);
         arraylist.add(2);
         arraylist.add(3);
