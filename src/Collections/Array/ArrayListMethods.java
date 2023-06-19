@@ -41,6 +41,7 @@ public class ArrayListMethods {
         //cannot declare with primitive datatype only class
         ArrayList<Integer> arraylist = new ArrayList<Integer>();
 
+
         arraylist.add(1);
         arraylist.add(2);
         arraylist.add(3);
