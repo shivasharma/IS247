@@ -1,11 +1,42 @@
-package Collections;
+package Collections.Queues;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
 public class PriorityQueueEg<S> {
 
     public static void main(String[] args) {
+        PriorityQueueDemo1();
+        // PriorityQueueDemo2();
+    }
+
+    private static void PriorityQueueDemo1() {
+
+        PriorityQueue<String> queue1 = new PriorityQueue<>();
+        queue1.offer("MD");
+        queue1.offer("DC");
+        queue1.offer("VA");
+        queue1.offer("NY");
+
+        System.out.println("Priority queue using Comparble");
+        while (queue1.size() > 0) {
+            System.out.println(queue1.remove() + " ");
+        }
+        // PriorityQueie(initialcapacity,comparator)
+        PriorityQueue<String> queue2 = new PriorityQueue(4, Collections.reverseOrder());
+        queue2.offer("MD");
+        queue2.offer("DC");
+        queue2.offer("VA");
+        queue2.offer("NY");
+
+        System.out.println("\n Priority Queue using Comparator");
+        while (queue2.size() > 0) {
+            System.out.println(queue2.remove() + " ");
+        }
+    }
+
+    private static void PriorityQueueDemo2() {
         PriorityQueue<String> queue1 = new PriorityQueue<String>();
         queue1.add("A");
         queue1.add("B");
@@ -43,6 +74,7 @@ public class PriorityQueueEg<S> {
             System.out.println(s);
         }
         System.out.println("After Using poll method.");
+
         pq.poll();
         for (String s : pq) {
             System.out.println(s);
