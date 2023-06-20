@@ -4,7 +4,7 @@ public class QuickSort {
     private int length;
     private int[] array;
 
-    public static void main(String a[]) {
+    public static void main(String[] a) {
 
         QuickSort sorter = new QuickSort();
         int[] input = {24, 2, 45, 20, 56, 75, 2, 56, 99, 53, 12};
@@ -41,8 +41,8 @@ public class QuickSort {
         while (i <= j) {
             /**
              * In each iteration, we will identify a number from left side which
-             * is greater then the pivot value, and also we will identify a number
-             * from right side which is less then the pivot value. Once the search
+             * is greater than the pivot value, and also we will identify a number
+             * from right side which is less than the pivot value. Once the search
              * is done, then we exchange both numbers.
              */
             while (array[i] < pivot) {
