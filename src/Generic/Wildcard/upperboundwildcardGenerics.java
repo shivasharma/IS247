@@ -10,10 +10,15 @@ public class upperboundwildcardGenerics {
         List<Integer> li = Arrays.asList(1, 2, 3);
         System.out.println("sum = " + sumOfList(li));
 
+        WildcardExamples();
+    }
+
+    private static void WildcardExamples() {
+        test(new ArrayList<Test>());
         test(new ArrayList<Integer>());
         test(new ArrayList<Object>());
         test2(new ArrayList<Integer>());
-        test2(new ArrayList<Object>());
+        test2(new ArrayList<Test>());
     }
 
     //List <? extend Number> means it is bounded and that extends from number only Nu
@@ -32,5 +37,6 @@ public class upperboundwildcardGenerics {
         System.out.println("This ArrayList<? extends Object method called");
     }
 
-
+    class Test {
+    }
 }
