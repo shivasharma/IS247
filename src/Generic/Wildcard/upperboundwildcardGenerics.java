@@ -21,7 +21,7 @@ public class upperboundwildcardGenerics {
         test2(new ArrayList<Test>());
     }
 
-    //List <? extend Number> means it is bounded and that extends from number only Nu
+    //List <? extend Number> means it is bounded and that extends from number only
     public static double sumOfList(List<? extends Number> list) {
         double s = 0.0;
         for (Number n : list)
