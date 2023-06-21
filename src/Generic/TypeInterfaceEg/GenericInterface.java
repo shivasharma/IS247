@@ -1,16 +1,14 @@
 package Generic.TypeInterfaceEg;
 
 public interface GenericInterface<T> {
-
 }
 
 class GenericClass<T> implements GenericInterface<T> {
-
 }
 //class NormalClass implements  GenericInterface<T>{
 
 //}
-//Non generic class must specify the specific to implemention
+//Nongeneric class must specify the specific to implementation
 interface Iinterface<T> {
 }
 
