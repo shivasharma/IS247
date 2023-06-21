@@ -25,9 +25,10 @@ public class UnboundWildCardGeneric {
     }
 
     public static void printList(List<Object> list) {
+        System.out.println("This is print Object");
         for (Object elem : list)
             System.out.println(elem + " ");
-        System.out.println();
+
     }
 
 
