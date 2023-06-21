@@ -11,7 +11,7 @@ public class LowerboundwildCardGeneircs {
         }
     }
 
-    //Work for Number and any of its sub types. Integer is a subtype of number. Number is a supertype
+    //Work for Number and any of its subtypes. Integer is a subtype of number. Number is a supertype
     static void printListItems2(List<? super Integer> list) {
         for (Object num : list) {
             System.out.println(num);
@@ -69,7 +69,7 @@ public class LowerboundwildCardGeneircs {
                 " using printListItems3 method:");
         printListItems3(list4);
 
-
+//Restrictions on wildcards
         Number n = 12;
         Integer i = 30;
         List<?> li = new ArrayList<>();
@@ -88,5 +88,9 @@ public class LowerboundwildCardGeneircs {
 
     }
 
+    public static <T> void copy(List<? super T> dest, List<? extends T> src) {
+        for (int i = 0; i < src.size(); i++)
+            dest.set(i, src.get(i));
+    }
 
 }
