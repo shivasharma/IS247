@@ -1,10 +1,13 @@
 package Generic.Wildcard;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 public class WildcardDemo {
+
+
     //compare this method below with wildcard
     public static <T> void displayData(List<T> l) {
         for (T t : l) {
@@ -19,7 +22,21 @@ public class WildcardDemo {
         }
     }
 
+
+    public static void displayListObject(List<Object> list) {
+        for (Object element : list) {
+            System.out.print(element + " ");
+        }
+    }
+
+    public static void printListWildCard(List<?> list) {
+        for (Object element : list) {
+            System.out.print(element + " ");
+        }
+    }
+
     public static void main(String[] args) {
+
         List<Double> list = new ArrayList<>();
         list.add((10.5));
         list.add(20.5);
@@ -33,6 +50,11 @@ public class WildcardDemo {
         System.out.println("Print using  wildcard");
         displayDataWildCard(list);
         displayDataWildCard(list1);
+
+
+        List<Integer> li = Arrays.asList(1, 2, 3);
+        // displayListObject(li);
+        printListWildCard(list);
     }
 
 
