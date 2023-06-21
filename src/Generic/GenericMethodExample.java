@@ -8,13 +8,16 @@ public class GenericMethodExample {
     public static void main(String[] args) {
 
         Integer[] ints = {10, 20, 30, 40, 50};
-        String[] daysOfWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+        String[] daysOfWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         print(ints);
         print(daysOfWeek);
         nonGenericPrint(ints);
         //nonGenericPrint(daysOfWeek);
         System.out.println(add("This is string"));
         System.out.println(add(1));
+
+        System.out.println("Calling Print Method");
+        printMe("Hello", 247);
     }
 
     //Generic Method that will print the result based on datatype provided by the users
@@ -29,6 +32,12 @@ public class GenericMethodExample {
             System.out.println(element + " ");
         }
         System.out.println(" ");
+    }
+
+    private static <T, V> T printMe(T a, V b) {
+        System.out.println(String.valueOf(a));
+        System.out.println(b);
+        return a;
     }
 
     //This is nonGeneric Print method that take integer array
