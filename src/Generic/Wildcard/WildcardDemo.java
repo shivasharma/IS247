@@ -1,6 +1,7 @@
 package Generic.Wildcard;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class WildcardDemo {
@@ -19,12 +20,19 @@ public class WildcardDemo {
     }
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add((10));
-        list.add(20);
+        List<Double> list = new ArrayList<>();
+        list.add((10.5));
+        list.add(20.5);
+
+        List<Integer> list1 = new LinkedList<>();
+        list1.add((10));
+        list1.add(20);
         displayData(list);
+        displayData(list1);
+
         System.out.println("Print using  wildcard");
         displayDataWildCard(list);
+        displayDataWildCard(list1);
     }
 
 
