@@ -1,4 +1,4 @@
-package Generic;
+package Generic.GenericDemo;
 
 public class DemoClass<T> {
 

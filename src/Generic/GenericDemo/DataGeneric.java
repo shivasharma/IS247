@@ -1,11 +1,11 @@
 package Generic.GenericDemo;
 
-class DataGenerice<T> {
+class DataGeneric<T> {
     //T is the type parameter
 
     private T data;
 
-    public DataGenerice(T data) {
+    public DataGeneric(T data) {
         this.data = data;
     }
 

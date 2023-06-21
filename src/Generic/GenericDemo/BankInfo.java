@@ -1,5 +1,5 @@
 package Generic.GenericDemo;
-
+//<T> means type could be of any type not bounded to a particular type. User defined type
 public class BankInfo<T> {
     T t1;
 
@@ -19,11 +19,11 @@ public class BankInfo<T> {
 
     public <T> void deposite(T[] money) {
         for (T i : money) {
-            System.out.println(i);
+            System.out.print(i);
         }
     }
 
     public void display() {
-        System.out.println(t1);
+        System.out.print(t1);
     }
 }
