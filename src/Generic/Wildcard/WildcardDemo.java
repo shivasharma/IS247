@@ -1,6 +1,7 @@
 package Generic.Wildcard;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class WildcardDemo {
@@ -25,5 +26,13 @@ public class WildcardDemo {
         displayData(list);
         System.out.println("Print using  wildcard");
         displayDataWildCard(list);
+    }
+
+    class SortingClass<T> {
+        List list = Arrays.asList(1, 3, 65, 7, 90, 6);
+
+        public List<?> sort(List<?> unsortedList) {
+            return unsortedList;
+        }
     }
 }
