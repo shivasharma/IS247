@@ -18,6 +18,7 @@ public class GenericMethodExample {
 
         System.out.println("Calling Print Method");
         printMe("Hello", 247);
+        printMe("Hello");
     }
 
     //Generic Method that will print the result based on datatype provided by the users
@@ -34,8 +35,13 @@ public class GenericMethodExample {
         System.out.println(" ");
     }
 
+    private static <T> T printMe(T a) {
+        System.out.println(a);
+        return a;
+    }
+
     private static <T, V> T printMe(T a, V b) {
-        System.out.println(String.valueOf(a));
+        System.out.println(a);
         System.out.println(b);
         return a;
     }
