@@ -10,16 +10,31 @@ public class ON2 {
        n*n
      */
     public static void main(String[] args) {
-        nextedForLoop(2);
+        nestedForLoop(2);
     }
 
-    public static void nextedForLoop(int n) {
+    public static void nestedForLoop(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.printf("Product of %s and %s is %s%n", i, j, i * j);
 
             }
-
         }
+    }
+
+    public static void nestedForLoopAndNonNested(int n) {
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) { //O(n2)
+                System.out.printf("Product of %s and %s is %s%n", i, j, i * j);
+
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            System.out.println("printing" + i); //O(n)
+        }
+
+        // if we add O(n2+n)=> O(n2)
+        //The lower order terms are ignored. Only the higher order terms is kept
     }
 }
