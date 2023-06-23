@@ -5,6 +5,7 @@ public class BigOn {
         printItems(100);
         System.out.println("--------------------");
         singleWhileLoop(100);
+        ifStatement(87);
     }
 
     private static void printItems(int n) {
@@ -30,5 +31,17 @@ public class BigOn {
         }
         System.out.println();
         System.out.println("Time taken by while loop:" + (System.currentTimeMillis() - now));
+    }
+
+    public static void ifStatement(int n) {
+        // in this case either if or else will execute based on the input
+        // if the value of n doubles it will take double to execute in
+        if (n % 2 == 0) { //this is 0(1) how??
+            System.out.println("The input is even");
+        } else {
+            for (int i = 0; i < n; i++) { //0(n)??
+                System.out.print("Printing " + i);
+            }
+        }
     }
 }
