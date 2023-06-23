@@ -6,6 +6,7 @@ public class BigOn {
         System.out.println("--------------------");
         singleWhileLoop(100);
         ifStatement(87);
+        twoForLoops(10);
     }
 
     private static void printItems(int n) {
@@ -43,5 +44,29 @@ public class BigOn {
                 System.out.print("Printing " + i);
             }
         }
+    }
+
+    public static void twoForLoops(int n) {
+        //what is the complexity of this code
+        //O(n+100) => O(n) =>
+        for (int i = 0; i < n; i++) { //0(n)??
+            System.out.print("Printing " + i);
+        }
+        for (int i = 0; i < 100; i++) { //0(1)??
+            System.out.print("Printing " + i);
+        }
+
+    }
+
+    public static void twoForLoopNM(int n, int m) {
+        //what is the complexity of this code
+        //O(n+m))
+        for (int i = 0; i < n; i++) { //0(n)??
+            System.out.print("Printing " + i);
+        }
+        for (int i = 0; i < m; i++) { //0(m)??
+            System.out.print("Printing " + i);
+        }
+
     }
 }
