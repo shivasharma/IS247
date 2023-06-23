@@ -69,4 +69,16 @@ public class BigOn {
         }
 
     }
+
+    public static void twoForLoopNAndM(int n, int m) {
+        //what is the complexity of this code
+        //O(n*m))
+        //For each iteration of the loop going n times the second loop iterate m times N*M
+        for (int i = 0; i < n; i++) { //0(n)??
+            for (int j = 0; j < m; j++) { //0(m)??
+                System.out.print("Printing " + i * j);
+            }
+
+        }
+    }
 }
