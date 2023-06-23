@@ -37,4 +37,16 @@ public class ON2 {
         // if we add O(n2+n)=> O(n2)
         //The lower order terms are ignored. Only the higher order terms is kept
     }
+
+
+    public static void nestedForLoophalfdivide(int n) {
+        //N*(N/2)=O(N2)
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n / 2; j--) {
+                System.out.printf("Value of i: %s j: %s%n", i, j);
+
+            }
+        }
+    }
+
 }
