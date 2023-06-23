@@ -8,13 +8,11 @@ import static java.util.Collections.swap;
 public class CodeComplexity {
 
     public static void main(String[] args) {
-        System.out.println("The complexity of complexity1 is " + "your answer");
-        System.out.println("The complexity of complexity2 is " + "your answer");
-        System.out.println("The complexity of complexity3 is " + "your answer");
-        System.out.println("The complexity of complexity4 is " + "your answer");
-
+        System.out.println("The complexity of method complexity1 is " + "your answer");
+        System.out.println("The complexity of  method complexity2 is " + "your answer");
+        System.out.println("The complexity of  method complexity3 is " + "your answer");
+        System.out.println("The complexity of method complexity4 is " + "your answer");
     }
-
 
     private static void complexity1(int n) {
         for (int i = 1; i < n; i *= 2) {
