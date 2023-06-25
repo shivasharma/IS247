@@ -1,12 +1,22 @@
 package Collections.Sets;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class SetExamples {
     public static void main(String[] args) {
+        //Setexample1();
+        //DataOrderusingHashset();
+        //DataOrderusingLinkedHashSet();
+
+        ImmutableIssue();
+
+        Set setA = new HashSet();
+        Set setB = new LinkedHashSet();
+        Set setC = new TreeSet();
+    }
+
+    private static void Setexample1() {
+
         Set<String> s1 = new HashSet<String>();
         s1.addAll(Arrays.asList("A", "B", "C"));
 
@@ -23,4 +33,54 @@ public class SetExamples {
         //common values
         System.out.println("Intersection:" + s4);
     }
+
+    private static void DataOrderusingHashset() {
+        // HashSet could print in any order
+        //This is unordered
+
+        Set<String> data = new HashSet<String>();
+
+        data.add("Programming");
+        data.add("Set");
+        data.add("Example");
+        data.add("1");
+        data.add("Set");
+        data.add("Apple");
+        data.add("@");
+        System.out.println(data);
+
+        System.out.println(data.contains("Apple"));
+
+    }
+
+    private static void DataOrderusingLinkedHashSet() {
+        // LinkedHashSet Data set order is unique
+        Set<String> data = new LinkedHashSet<String>();
+
+        data.add("Programming");
+        data.add("Set");
+        data.add("Example");
+        data.add("1");
+        data.add("Set");
+        data.add("Apple");
+        data.add("@");
+
+        System.out.println(data);
+    }
+
+    private static void ImmutableIssue() {
+        // LinkedHashSet Data set order is unique
+        Set<String> data = new LinkedHashSet<String>();
+
+        data.add("Programming");
+        data.add("Set");
+        data.add("Example");
+        //Set.of creates a immutable set
+        Set dataSet = Set.of("IS247");
+        dataSet.add("IS147");
+        dataSet.remove("Set");
+
+        System.out.println(data);
+    }
+
 }
