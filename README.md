@@ -8,10 +8,3 @@ https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 
 1. cmd line: javadoc -d doc src* or javadoc -d doc src* -author -version
 2. From Intellij = Tools => Generate javaDocs => select Whole project => ok
-dsfsdhsjkfsdjkfdsfds
-sfsd
-fsd
-sf
-sdf
-dsf
-sdf
