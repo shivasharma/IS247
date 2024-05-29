@@ -20,4 +20,9 @@ public class PhonePay implements Payment {
     public void payByQR() {
 
     }
+
+    @Override
+    public void Cashback() {
+
+    }
 }

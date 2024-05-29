@@ -1,5 +1,6 @@
 package AbstractAndInterface.LiskovSubstitutionPrinciple;
 
+/*
 public class Facebook extends SocialMedia {
 
     public void chat() {
@@ -14,3 +15,4 @@ public class Facebook extends SocialMedia {
     public void groupVideoCall() {
     }
 }
+*/

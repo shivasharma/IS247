@@ -19,7 +19,7 @@ public class HandlingFileCheckedException {
         try {
             FileInputStream fis = new FileInputStream("Test.txt");
         } catch (FileNotFoundException e) {
-            WriteExceptionToLog.writeExceptionToLog(e, e.getMessage());
+            // WriteExceptionToLog.writeExceptionToLog(e, e.getMessage());
             throw new RuntimeException(e);
         }
     }

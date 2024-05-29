@@ -20,21 +20,21 @@ public class Refactor {
             return;
         }
         // Step 2: Perform calculations
-        double averageGrade = calculateAverageGrade();
-        String gradeLevel = calculateGradeLevel();
+        //  double averageGrade = calculateAverageGrade();
+        // String gradeLevel = calculateGradeLevel();
         // Step 3: Print student information
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Major: " + major);
-        System.out.println("Average Grade: " + averageGrade);
-        System.out.println("Grade Level: " + gradeLevel);
+        // System.out.println("Average Grade: " + averageGrade);
+        //  System.out.println("Grade Level: " + gradeLevel);
         // ... more print statements
         // Step 4: Perform additional actions
-        if (averageGrade >= 90) {
+        //  if (averageGrade >= 90) {
             System.out.println("Congratulations on your excellent performance!");
-        } else {
+        // } else {
             System.out.println("Keep up the good work!");
-        }
+        //  }
     }
 }
 

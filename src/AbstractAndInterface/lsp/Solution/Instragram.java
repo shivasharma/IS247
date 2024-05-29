@@ -10,4 +10,9 @@ public class Instragram implements SocialMedia, VideoCall {
     public void sendPhoto() {
 
     }
+
+    @Override
+    public void groupVideoCall() {
+
+    }
 }
