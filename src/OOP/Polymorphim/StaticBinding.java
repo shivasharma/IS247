@@ -18,7 +18,7 @@ class Girl extends Human {
 
 class StaticBinding {
     public static void main(String args[]) {
-        // Boy class and calling the method walk() of the same class
+        // Girl class is calling the method walk() of the same class
         // Since nothing is ambiguous here, compiler would be able to resolve this binding during compile-time,
         // such kind of binding is known as static binding.
         Girl obj1 = new Girl();
