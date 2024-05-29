@@ -7,6 +7,7 @@ class Animal {
 }
 
 class Dog extends Animal {
+
     @Override
     public void sound() {
         System.out.println("The dog barks.");
@@ -22,6 +23,7 @@ class Cat extends Animal {
 
 public class PolymorphismExample {
     public static void main(String[] args) {
+
         Animal animal1 = new Dog();
         Animal animal2 = new Cat();
 
