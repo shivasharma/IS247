@@ -3,26 +3,27 @@ package Exceptions;
 public class LabTryCatch {
 
     public static void main(String[] args) {
-        // lab1();
-        lab2();
+        lab1();
+        // lab2();
+        // lab2();
     }
 
     public static void lab1() {
-         /*
-        StringBuilder sb =  StringBuilder();
-        tried {
+
+        StringBuilder sb = new StringBuilder();
+        try {
             sb.append("a");
-        catching(Exception ex){
+        } catch (Exception ex) {
             sb.append("b");
-        }finale {
+        } finally {
             sb.append("c");
-        sb.append("d");
-        System.out.println(sb);
+            sb.append("d");
+            System.out.println(sb);
+        }
     }
-    }
-       */
+
         //What is the output of the code?
-    }
+
 
     public static void lab2() {
         //Debug this code?
