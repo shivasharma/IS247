@@ -3,11 +3,14 @@ package Exceptions.ExceptionHandling;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.UncheckedIOException;
+
 public class HandlingFileCheckedException {
     public static void main(String... args) {
 
         //MultipleCatchExamples();
         FileReader();
+        // MultipleCatchExamplesSyntax();
     }
 
     public static void FileReader() {
@@ -49,4 +52,16 @@ public class HandlingFileCheckedException {
 
         }
     }
+
+    public static void MultipleCatchExamplesSyntax() {
+        try {
+            //somecode here
+        } catch (UnknownError | UncheckedIOException e) {
+            //handel both FileNotFoundException and UnknownHostException
+        } catch (Exception e) {
+            System.err.println("This will handel all type of exception" + e);
+
+        }
+    }
+
 }
