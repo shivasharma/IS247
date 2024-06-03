@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class ThrowsExample {
+    //what will happen if we take out IOException from manin code?
     public static void main(String[] args) throws IOException {
         String filename = "abc.txt";
         String text = "Hey there, what's up?";
@@ -29,6 +30,5 @@ public class ThrowsExample {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
