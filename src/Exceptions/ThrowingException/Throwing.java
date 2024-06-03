@@ -5,6 +5,14 @@ import java.io.IOException;
 public class Throwing {
     static double radius;
 
+    public static void main(String[] args) {
+        //checkAgeThrow(14);
+        //setRadius(-1);
+
+        setAge1(0);
+        //setAge2(20);
+    }
+
     static void checkAgeThrow(int age) {
         //using throw
         if (age < 18) {
@@ -36,14 +44,6 @@ public class Throwing {
     public static void setAge2(int age) throws IOException {
         //check age
         age = age;
-    }
-
-    public static void main(String[] args) {
-        //checkAgeThrow(14);
-        //setRadius(-1);
-
-        setAge1(0);
-        //setAge2(20);
     }
 
 
