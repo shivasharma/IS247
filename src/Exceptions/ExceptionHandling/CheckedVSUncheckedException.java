@@ -1,64 +1,42 @@
 package Exceptions.ExceptionHandling;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class CheckedVSUncheckedException {
 
-    public static void main(String[] main) {
-        //checked exception
-        // readFile("abc.txt");
-        //readFileusingThrows("shiva.txt");
-
-        //unchecked exception null pointer exception is unchecked exception
-        String name = null;
-        unCheckedException(name);
-        //unCheckedException(name,"test");
-    }
-
-
-    //File not found is checked exception
-    private static void readFile(String filename) {
-        //This code shows checked exception
-        //(FileReader reader = new FileReader(filename)){}
-
-        try (FileReader reader = new FileReader(filename)) {
-        } catch (FileNotFoundException e) {
-            //throw new RuntimeException(e);
-            System.out.println("The file location does not exist");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+    public static void main(String[] args) {
+        checkedException();
+        unCheckedException();
         }
 
+    private static void checkedException() {
+        try {
+            FileReader fr = new FileReader("files/filereader1.txt");
+            int i;
+            while ((i = fr.read()) != -1) {
+                System.out.print((char) i);
+            }
+        } catch (IOException ex) {
+            System.out.println("File does not exist");
 
-    }
-
-    private static void readFileusingThrows(String filename) throws FileNotFoundException {
-
-        FileReader reader = new FileReader(filename);
-    }
-
-    private static void unCheckedException(String mymessage) {
-
-        System.out.println(mymessage.length());
-
-    }
-   /*
-    private static void unCheckedException(String mymessage) {
-
-       throw new Exceptioon(); checked exception
-       throw new RuntimeException(); // unchecked exception
-    }
-    */
-
-   /*
-    private static void unCheckedException(String mymessage) {
-        try{
-        System.out.println(mymessage.length());
-        }catch (NullPointerException npe){
-            System.out.println("String cannot be null");
         }
     }
-    */
+
+    // UNCHECKED EXAMPLE
+
+    private static void unCheckedException() {
+        int[] numbers = {1, 2, 3, 4, 5};
+        int index = 10; // Trying to access an invalid index
+        try {
+            int value = numbers[index]; // This line will throw an ArrayIndexOutOfBoundsException
+            System.out.println("Value at index " + index + " is: " + value);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid index: " + index);
+        }
+    }
+
+
+
+
 }
