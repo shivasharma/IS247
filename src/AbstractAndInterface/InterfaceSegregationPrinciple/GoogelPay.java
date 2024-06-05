@@ -3,7 +3,7 @@ package AbstractAndInterface.InterfaceSegregationPrinciple;
 public class GoogelPay implements Payment {
 
     public void payCash() {
-        //not applicable
+        //This method is not applicable at this point it is forcing to use this method which has no purpose
     }
 
     public void payByCard() {
@@ -15,11 +15,11 @@ public class GoogelPay implements Payment {
 
 
     public void payByQR() {
-        //This method is not application
+        //This method is not applicable at this point it is forcing to use this method which has no purpose
     }
 
     @Override
     public void Cashback() {
-        //not applicable
+        //This method is not applicable at this point it is forcing to use this method which has no purpose
     }
 }
