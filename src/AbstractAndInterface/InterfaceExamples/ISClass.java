@@ -20,8 +20,4 @@ public class ISClass implements Student {
         System.out.println("My college name is" + Student.college);
     }
 
-    @Override
-    public void getInterfacename() {
-        // Why we have to implement this ?
-    }
 }

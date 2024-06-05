@@ -19,8 +19,4 @@ public class Engineering implements Student {
         System.out.println("My college name is UMD");
     }
 
-    @Override
-    public void getInterfacename() {
-        // Why we have to implement this?
-    }
 }

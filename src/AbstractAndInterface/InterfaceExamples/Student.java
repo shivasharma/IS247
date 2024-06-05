@@ -1,6 +1,6 @@
 package AbstractAndInterface.InterfaceExamples;
 
-public interface Student extends ParentStudent {
+public interface Student {
 
     String college = "UMBC";
 
