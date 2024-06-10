@@ -1,12 +1,10 @@
 package FileIO;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-
-/**
- * Created by Shiva on 8/28/2017.
- */
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 public class CopyFile {
 
     public static void main(String[] args) {
@@ -14,21 +12,15 @@ public class CopyFile {
         String sourceFile = "files/test.txt";
         String tragetFile = "files/target.txt";
 
+        Path source = Paths.get(sourceFile);
+        Path destination = Paths.get(tragetFile);
+
+        // Copy the file, replacing any existing destination file
         try {
-            FileReader fReader = new FileReader(sourceFile);
-            BufferedReader bReader = new BufferedReader((fReader));
-            FileWriter writer = new FileWriter(tragetFile);
-            while (true) {
-                String line = bReader.readLine();
-                if (line == null) {
-                    break;
-                } else {
-                    writer.write(line + "\n");
-                }
-            }
-            System.out.println("File Copied");
-        } catch (Exception ex) {
-            ex.printStackTrace();
+            Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
+        System.out.println("File copied successfully!");
     }
 }
