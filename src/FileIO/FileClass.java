@@ -1,10 +1,8 @@
 package FileIO;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.Date;
+import java.util.Scanner;
 
 /**
  * Created by Shiva on 7/23/2017.
@@ -13,8 +11,25 @@ public class FileClass {
     public static void main(String[] args) throws IOException {
 
         // File();
-        //WriteFile();
-        ReadFile();
+        // WriteFile();
+        //ReadFile();
+        readFileScanner();
+    }
+
+    private static void File() throws IOException {
+        File file = new File("C:\\temp1");
+        System.out.println("Does  it exist " + file.exists());
+        System.out.println("Can it be read? " + file.canRead());
+        System.out.println("Can it be written " + file.canWrite());
+        System.out.println("Is it a directory " + file.isDirectory());
+        System.out.println("Is is absolute " + file.isAbsolute());
+        System.out.println("Absolute path is " + file.getAbsolutePath());
+        System.out.println("Last modified on " + new Date(file.lastModified()));
+        System.out.println("Full path file " + file.getCanonicalPath());
+        File relativeFile = new File("src/FileIO/relativepath.txt");
+        System.out.println("Relative Path " + relativeFile.getPath());
+        //A canonical pathname is both absolute and unique
+        System.out.println("Full path file " + relativeFile.getCanonicalPath());
     }
 
     private static void ReadFile() throws IOException {
@@ -43,19 +58,12 @@ public class FileClass {
         fos.close();
     }
 
-    private static void File() throws IOException {
-        File file = new File("C:\\temp");
-        System.out.println("Does  it exist " + file.exists());
-        System.out.println("Can it be read? " + file.canRead());
-        System.out.println("Can it be written " + file.canWrite());
-        System.out.println("Is it a directory " + file.isDirectory());
-        System.out.println("Is is absolute " + file.isAbsolute());
-        System.out.println("Absolute path is " + file.getAbsolutePath());
-        System.out.println("Last modified on " + new Date(file.lastModified()));
-        System.out.println("Full path file " + file.getCanonicalPath());
-        File relativeFile = new File("src/FileIO/relativepath.txt");
-        System.out.println("Relative Path " + relativeFile.getPath());
-        //A canonical pathname is both absolute and unique
-        System.out.println("Full path file " + relativeFile.getCanonicalPath());
+    private static void readFileScanner() throws FileNotFoundException {
+        File file = new File("files/fileexample.txt");
+        Scanner scan = new Scanner(file);
+        while (scan.hasNext()) {
+            System.out.println(scan.nextLine());
+        }
     }
+
 }
