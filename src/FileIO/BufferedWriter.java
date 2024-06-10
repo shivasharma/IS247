@@ -12,8 +12,9 @@ public class BufferedWriter {
         try {
             java.io.BufferedWriter writer = new java.io.BufferedWriter(new FileWriter("files/output.txt"));
 
-            writeFile(writer);
+
             productList(writer);
+            writeFile(writer);
             writer.close();
 
             java.io.BufferedReader reader = new java.io.BufferedReader(new FileReader("files/output.txt"));
