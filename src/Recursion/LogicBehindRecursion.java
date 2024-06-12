@@ -2,7 +2,7 @@ package Recursion;
 
 public class LogicBehindRecursion {
     public static void main(String[] args) {
-        //LIFO last in first out
+        // The stack memory works by LIFO last in first out
         firstMethod();
     }
 
