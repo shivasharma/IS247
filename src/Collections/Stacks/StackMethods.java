@@ -13,7 +13,9 @@ public class StackMethods {
 
         System.out.println(names.size());
         System.out.println(names.peek());
-        System.out.println(names.size());
+        System.out.println(names.empty());
+        System.out.println(names.search("Katy"));
+        System.out.println("---------------------------");
 
         while (!names.isEmpty()) {
             System.out.println(names.pop());
