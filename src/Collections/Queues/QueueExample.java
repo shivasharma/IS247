@@ -47,7 +47,7 @@ public class QueueExample {
         System.out.println(" top element is " + top);
         System.out.println(queue);
 
-        queue.poll();//Retrives and removes the heado of this queue or return null if empty
+        queue.poll();//Retrives and removes the head of this queue or return null if empty
         System.out.println("After poll" + queue);
     }
 
