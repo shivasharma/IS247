@@ -4,8 +4,8 @@ package Generic.RawType;
 public class Max {
 
     public static void main(String[] args) {
-        System.out.println(max(23, 23));
-        // System.out.println(maxWithGenerics("12","Welcome")); //a compile error will display
+        //  System.out.println(max(23, 25));
+        // System.out.println(maxWithGenerics(12,"Welcome")); //a compile error will display
 
     }
 
