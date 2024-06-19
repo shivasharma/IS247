@@ -19,7 +19,7 @@ public class upperboundwildcardGenerics {
     }
 
     private static void showAll(List<? extends Number> list) {
-        // list.add(new Double(2.4)); //we cannot add using upper bound it does not know what kind ong number is that
+        // list.add(new Double(2.4)); //we cannot add using upper bound it does not know what kind of number is that
         for (Number n : list) {
             System.out.println(n);
         }
