@@ -19,7 +19,7 @@ public class WildcardSimpleExample {
     public static void main(String[] args) {
         List<Integer> nums = Arrays.asList(1, 2, 3);
 // List<object> is not a super class of List<Integer>
-        print(nums);
+        // print(nums);
         printwildcard(nums);
 
     }
