@@ -4,6 +4,13 @@ public class DemoClass<T> {
 
     private T t;
 
+    public void set(T t) {
+        this.t = t;
+    }
+
+    public T get() {
+        return t;
+    }
     public static void main(String[] args) {
 
         DemoClass<String> instance = new DemoClass<String>();
@@ -20,11 +27,5 @@ public class DemoClass<T> {
 
     }
 
-    public void set(T t) {
-        this.t = t;
-    }
 
-    public T get() {
-        return t;
-    }
 }
