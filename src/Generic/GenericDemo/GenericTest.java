@@ -6,13 +6,10 @@ public class GenericTest {
         Data d1 = new Data("This is a data constructor");
         System.out.println(d1);
 
-        //What will happen here will this create error.
-        //Data d2=new Data(10);
-        //int data=(int)d1.getData();
-
-
         DataGeneric<String> d3 = new DataGeneric<>("This is Generic");
-
+        System.out.println(d3);
+        d3.setData("IS247");
+        System.out.println("This d3 is " + d3.getData());
         System.out.println(d3);
 
         DataGeneric<Integer> d4 = new DataGeneric<>(1);
