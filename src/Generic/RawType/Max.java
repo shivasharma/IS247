@@ -1,27 +1,33 @@
 package Generic.RawType;
 
 
+class Store<T> {
+    private T item;
+
+    public T getItem() {
+        return this.item;
+    }
+
+    public void setItem(T item) {
+        this.item = item;
+    }
+
+}
 public class Max {
 
     public static void main(String[] args) {
-        //  System.out.println(max(23, 25));
-        // System.out.println(maxWithGenerics(12,"Welcome")); //a compile error will display
+        Store store0 = new Store();
+        store0.setItem(10);
+        Integer item = (Integer) store0.getItem();
+        // Integer item=store0.getItem(); what is wrong with this code?
+        System.out.println("using raw type:" + item);
 
-    }
 
-    public static Comparable max(Comparable o1, Comparable o2) {
-        if (o1.compareTo(o2) > 0) {
-            return o1;
-        } else {
-            return o2;
-        }
-    }
+        Store<Integer> store1 = new Store<>();
+        store1.setItem(34);
+        System.out.println("using generic type:" + store1.getItem());
 
-    public static <E extends Comparable<E>> E maxWithGenerics(E o1, E o2) {
-        if (o1.compareTo(o2) > 0) {
-            return o1;
-        } else {
-            return o2;
-        }
+
+
     }
 }
