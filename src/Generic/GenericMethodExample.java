@@ -11,6 +11,7 @@ public class GenericMethodExample {
         String[] daysOfWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         print(ints);
         print(daysOfWeek);
+
         nonGenericPrint(ints);
         //nonGenericPrint(daysOfWeek);
         System.out.println(add("This is string"));
