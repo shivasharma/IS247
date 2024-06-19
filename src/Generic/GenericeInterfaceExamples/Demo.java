@@ -9,9 +9,9 @@ public class Demo {
         System.out.println(d2);
 
         //Implementing IData interface
-        IData<String> d3 = new Data<>("This is generice interface");
+        IData<String> d3 = new Data<>("This is generic interface");
         System.out.println(d3);
-        //java built in generic tyoe
+        //java built in generic type
         // Comparable interface
         ComparableExample();
     }
