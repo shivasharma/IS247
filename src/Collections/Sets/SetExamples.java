@@ -6,8 +6,8 @@ public class SetExamples {
     public static void main(String[] args) {
         // Setexample1();
         // DataOrderusingHashset();
-        DataOrderusingLinkedHashSet();
-
+        //DataOrderusingLinkedHashSet();
+        sortedTreeset();
 
         Set setA = new HashSet();
         Set setB = new LinkedHashSet();
@@ -60,5 +60,21 @@ public class SetExamples {
         data.add("Set");
         data.add("Apple");
         System.out.println(data);
+    }
+
+    private static void sortedTreeset() {
+        SortedSet s = new TreeSet();
+        s.add(5);
+        s.add(15);
+        s.add(10);
+        s.add(1);
+        s.add(3);
+        System.out.println(s);
+
+        System.out.println(s.first());
+        System.out.println(s.last());
+        System.out.println(s.comparator());
+
+
     }
 }
