@@ -4,11 +4,10 @@ import java.util.*;
 
 public class SetExamples {
     public static void main(String[] args) {
-        //Setexample1();
-        //DataOrderusingHashset();
-        //DataOrderusingLinkedHashSet();
+        Setexample1();
+        // DataOrderusingHashset();
+        // DataOrderusingLinkedHashSet();
 
-        ImmutableIssue();
 
         Set setA = new HashSet();
         Set setB = new LinkedHashSet();
@@ -68,19 +67,6 @@ public class SetExamples {
         System.out.println(data);
     }
 
-    private static void ImmutableIssue() {
-        // LinkedHashSet Data set order is unique
-        Set<String> data = new LinkedHashSet<String>();
 
-        data.add("Programming");
-        data.add("Set");
-        data.add("Example");
-        //Set.of creates a immutable set
-        Set dataSet = Set.of("IS247");
-        dataSet.add("IS147");
-        dataSet.remove("Set");
-
-        System.out.println(data);
-    }
 
 }
