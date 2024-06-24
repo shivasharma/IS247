@@ -7,6 +7,21 @@ import java.util.Set;
 public class LinkedHashSetExample {
     public static void main(String[] args) {
         CreateLinkedHashSet();
+        LinkedHashSet();
+    }
+
+    private static void LinkedHashSet() {
+        Set<String> set1 = new LinkedHashSet<>();
+        set1.add("C");
+        set1.add("A ");
+        //only print single null value
+        set1.add(null);
+        set1.add("D");
+        set1.add("V");
+        set1.add(null);
+        set1.add("Z ");
+        set1.add(null);
+        System.out.println(set1);
     }
 
     private static void CreateLinkedHashSet() {
@@ -22,6 +37,7 @@ public class LinkedHashSetExample {
         set1.add(null);
         set1.add("New York");
         set1.add(null);
+
         System.out.println(set1);
 
         //Traversing elements
