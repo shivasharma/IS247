@@ -4,9 +4,9 @@ import java.util.*;
 
 public class SetExamples {
     public static void main(String[] args) {
-        Setexample1();
+        // Setexample1();
         // DataOrderusingHashset();
-        // DataOrderusingLinkedHashSet();
+        DataOrderusingLinkedHashSet();
 
 
         Set setA = new HashSet();
@@ -36,9 +36,7 @@ public class SetExamples {
     private static void DataOrderusingHashset() {
         // HashSet could print in any order
         //This is unordered
-
         Set<String> data = new HashSet<String>();
-
         data.add("Programming");
         data.add("Set");
         data.add("Example");
@@ -51,22 +49,16 @@ public class SetExamples {
         System.out.println(data.contains("Apple"));
 
     }
-
     private static void DataOrderusingLinkedHashSet() {
         // LinkedHashSet Data set order is unique
         Set<String> data = new LinkedHashSet<String>();
-
+        data.add("@");
         data.add("Programming");
         data.add("Set");
         data.add("Example");
         data.add("1");
         data.add("Set");
         data.add("Apple");
-        data.add("@");
-
         System.out.println(data);
     }
-
-
-
 }
