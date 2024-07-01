@@ -7,7 +7,7 @@ public class BigOn {
         // singleWhileLoop(100);
         // ifStatement(87);
         //twoForLoops(10);
-        twoForLoopNN(10, 10);
+        twoForLoopNM(10, 10);
     }
 
     private static void printItems(int n) {
@@ -59,12 +59,10 @@ public class BigOn {
 
     }
 
-    public static void twoForLoopNN(int n, int m) {
+    public static void twoForLoopNM(int n, int m) {
         //what is the complexity of this code
-        // if n=10 than n+n=2n  =2*10;
-        //O(n+n)=o(2n) we simplify this by dropping the constant
-        //O(n)
-
+        //O(a) + O(b)=O(a+b)
+        //if a was one and b was billions this would be very diffrent forloop
         System.out.println("-----------Frist Loop-------------");
         for (int i = 0; i < n; i++) { //0(n)??
             System.out.print("Printing " + i);
