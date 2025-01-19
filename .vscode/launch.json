@@ -1,0 +1,1093 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.Abstract.Application",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "AbstractClass",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.AbstractClass",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "AbstractShape",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.AbstractShape",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "AbstractandInterface",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.AbstractandInterface",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "AbstractandInterfaceExample",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.AbstractandInterfaceExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "EmployeesTester",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.Buitin.EmployeesTester",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CompareableBuiltInInterface",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.CompareableBuiltInInterface",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceAnimal",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.InterfaceAnimal",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceEg",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.InterfaceEg",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "MultipleInterfaces",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.InterfaceExamples.MultipleInterfaces",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "SmartPhone",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.InterfaceExamples.SmartPhone",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "TestInterface",
+            "request": "launch",
+            "mainClass": "AbstractAndInterface.InterfaceExamples.TestInterface",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CodeComplexity",
+            "request": "launch",
+            "mainClass": "BigO.Hw5.CodeComplexity",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ConstantTime",
+            "request": "launch",
+            "mainClass": "BigO.O1.ConstantTime",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BigOn",
+            "request": "launch",
+            "mainClass": "BigO.ON.BigOn",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ON2",
+            "request": "launch",
+            "mainClass": "BigO.ON2.ON2",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "Chapter11.Class.Car",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CarObject",
+            "request": "launch",
+            "mainClass": "Chapter11.Class.CarObject",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StudentTest",
+            "request": "launch",
+            "mainClass": "Chapter11.Class.StudentTest",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ToStringExample",
+            "request": "launch",
+            "mainClass": "Chapter11.ToString.ToStringExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ArrayLimitation",
+            "request": "launch",
+            "mainClass": "Collections.Array.ArrayLimitation",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListMethods",
+            "request": "launch",
+            "mainClass": "Collections.Array.ArrayListMethods",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListExample",
+            "request": "launch",
+            "mainClass": "Collections.ArrayListExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CollectionAdd",
+            "request": "launch",
+            "mainClass": "Collections.CollectionEg.CollectionAdd",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CollectionsExample",
+            "request": "launch",
+            "mainClass": "Collections.CollectionsExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "EnumSetExample",
+            "request": "launch",
+            "mainClass": "Collections.EnumSetExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "HashSetExample",
+            "request": "launch",
+            "mainClass": "Collections.HashtSet.HashSetExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "HashSetExample2",
+            "request": "launch",
+            "mainClass": "Collections.HashtSet.HashSetExample2",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "IteratorExample",
+            "request": "launch",
+            "mainClass": "Collections.IteratorExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LabCollection",
+            "request": "launch",
+            "mainClass": "Collections.LabCollection",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LinkedHashSetExample",
+            "request": "launch",
+            "mainClass": "Collections.LinkedHashSet.LinkedHashSetExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListArrayListSpeed",
+            "request": "launch",
+            "mainClass": "Collections.LinkedList.LinkedListArrayListSpeed",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListExample",
+            "request": "launch",
+            "mainClass": "Collections.LinkedList.LinkedListExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListExamples",
+            "request": "launch",
+            "mainClass": "Collections.LinkedList.LinkedListExamples",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Collections.LinkedList.LinkedListSamples.Main",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ListCollection",
+            "request": "launch",
+            "mainClass": "Collections.List.ListCollection",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "HashMapExample",
+            "request": "launch",
+            "mainClass": "Collections.Map.HashMapExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "MapExample",
+            "request": "launch",
+            "mainClass": "Collections.Map.MapExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "MapExample2",
+            "request": "launch",
+            "mainClass": "Collections.Map.MapExample2",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "DequeExamples",
+            "request": "launch",
+            "mainClass": "Collections.Queues.DequeExamples",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueueEg",
+            "request": "launch",
+            "mainClass": "Collections.Queues.PriorityQueueEg",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "QueueExample",
+            "request": "launch",
+            "mainClass": "Collections.Queues.QueueExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "SetExamples",
+            "request": "launch",
+            "mainClass": "Collections.Sets.SetExamples",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StackExample",
+            "request": "launch",
+            "mainClass": "Collections.StackExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StackMethods",
+            "request": "launch",
+            "mainClass": "Collections.Stacks.StackMethods",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "TreeSetExample",
+            "request": "launch",
+            "mainClass": "Collections.TreeSet.TreeSetExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "VectorClassExample",
+            "request": "launch",
+            "mainClass": "Collections.VectorClassExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticException",
+            "request": "launch",
+            "mainClass": "Exceptions.ArithmeticException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ArrayoutofBoundException",
+            "request": "launch",
+            "mainClass": "Exceptions.ArrayoutofBoundException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CheckedException",
+            "request": "launch",
+            "mainClass": "Exceptions.CheckedException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "TestCustomExceptionClass",
+            "request": "launch",
+            "mainClass": "Exceptions.CustomException.TestCustomExceptionClass",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "UnauthorizedException",
+            "request": "launch",
+            "mainClass": "Exceptions.CustomException.UnauthorizedException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Exceptions.Example",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionCalling",
+            "request": "launch",
+            "mainClass": "Exceptions.ExceptionCalling",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CheckedVSUncheckedException",
+            "request": "launch",
+            "mainClass": "Exceptions.ExceptionHandling.CheckedVSUncheckedException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "HandlingArithmeticException",
+            "request": "launch",
+            "mainClass": "Exceptions.ExceptionHandling.HandlingArithmeticException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "HandlingArrayoutofBoundException",
+            "request": "launch",
+            "mainClass": "Exceptions.ExceptionHandling.HandlingArrayoutofBoundException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "HandlingFileCheckedException",
+            "request": "launch",
+            "mainClass": "Exceptions.ExceptionHandling.HandlingFileCheckedException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "MultipleCatchExample",
+            "request": "launch",
+            "mainClass": "Exceptions.ExceptionHandling.MultipleCatchExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandlingExample",
+            "request": "launch",
+            "mainClass": "Exceptions.ExceptionHandlingExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Exceptions",
+            "request": "launch",
+            "mainClass": "Exceptions.Exceptions",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "InputMisMatchException",
+            "request": "launch",
+            "mainClass": "Exceptions.InputMisMatchException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "JavaCustomExceptionExample",
+            "request": "launch",
+            "mainClass": "Exceptions.JavaCustomExceptionExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LabTryCatch",
+            "request": "launch",
+            "mainClass": "Exceptions.LabTryCatch",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "NotMatchingException",
+            "request": "launch",
+            "mainClass": "Exceptions.NotMatchingException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "PrintExceptions",
+            "request": "launch",
+            "mainClass": "Exceptions.PrintExceptions",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ShowRuntimeErrors",
+            "request": "launch",
+            "mainClass": "Exceptions.ShowRuntimeErrors",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StringException",
+            "request": "launch",
+            "mainClass": "Exceptions.StringException",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StringParser",
+            "request": "launch",
+            "mainClass": "Exceptions.StringParser",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Throwing",
+            "request": "launch",
+            "mainClass": "Exceptions.ThrowingException.Throwing",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ThrowsExample",
+            "request": "launch",
+            "mainClass": "Exceptions.ThrowingException.ThrowsExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "TryCatchSyntax",
+            "request": "launch",
+            "mainClass": "Exceptions.TryCatchSyntax",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "TryWithResourcesExample",
+            "request": "launch",
+            "mainClass": "Exceptions.TryWithResourceExample.TryWithResourcesExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BufferedWriter",
+            "request": "launch",
+            "mainClass": "FileIO.BufferedWriter",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CopyFile",
+            "request": "launch",
+            "mainClass": "FileIO.CopyFile",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "FileClass",
+            "request": "launch",
+            "mainClass": "FileIO.FileClass",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "FileCreationNIO",
+            "request": "launch",
+            "mainClass": "FileIO.FileCreationNIO",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "FileInputUsingScanner",
+            "request": "launch",
+            "mainClass": "FileIO.FileInputUsingScanner",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "FileOutputStreamExample",
+            "request": "launch",
+            "mainClass": "FileIO.FileOutputStreamExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "FilePath",
+            "request": "launch",
+            "mainClass": "FileIO.FilePath",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "FileReaderReadingFIle",
+            "request": "launch",
+            "mainClass": "FileIO.FileReaderReadingFIle",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Filewriter",
+            "request": "launch",
+            "mainClass": "FileIO.Filewriter",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "JavaoldandNio",
+            "request": "launch",
+            "mainClass": "FileIO.JavaoldandNio",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "PrintWriterExample",
+            "request": "launch",
+            "mainClass": "FileIO.PrintWriterExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ReadFromWeb",
+            "request": "launch",
+            "mainClass": "FileIO.ReadFromWeb",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ReadWrite",
+            "request": "launch",
+            "mainClass": "FileIO.ReadWrite",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ReadingFiles",
+            "request": "launch",
+            "mainClass": "FileIO.ReadingFiles",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "WriteData",
+            "request": "launch",
+            "mainClass": "FileIO.WriteData",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BoundedTypeGeneric",
+            "request": "launch",
+            "mainClass": "Generic.BoundedType.BoundedTypeGeneric",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "DataSort",
+            "request": "launch",
+            "mainClass": "Generic.BoundedType.DataSort",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "GenericClass",
+            "request": "launch",
+            "mainClass": "Generic.GenericClass",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BankInfo",
+            "request": "launch",
+            "mainClass": "Generic.GenericDemo.BankInfo",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Data",
+            "request": "launch",
+            "mainClass": "Generic.GenericDemo.Data",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "DemoClass",
+            "request": "launch",
+            "mainClass": "Generic.GenericDemo.DemoClass",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "GenericTest",
+            "request": "launch",
+            "mainClass": "Generic.GenericDemo.GenericTest",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "GenericInference",
+            "request": "launch",
+            "mainClass": "Generic.GenericInference",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "GenericMethodExample",
+            "request": "launch",
+            "mainClass": "Generic.GenericMethodExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BankAccountMultipleInterface",
+            "request": "launch",
+            "mainClass": "Generic.GenericeInterfaceExamples.BankAccountMultipleInterface",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Generic.GenericeInterfaceExamples.Demo",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "DemoInterfaceClass",
+            "request": "launch",
+            "mainClass": "Generic.GenericeInterfaceExamples.DemoInterfaceClass",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "GenericsSuperExtendsDemo",
+            "request": "launch",
+            "mainClass": "Generic.GenericsSuperExtendsDemo",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Max",
+            "request": "launch",
+            "mainClass": "Generic.RawType.Max",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "RawTypeDemo",
+            "request": "launch",
+            "mainClass": "Generic.RawType.RawTypeDemo",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "SubTyping",
+            "request": "launch",
+            "mainClass": "Generic.SubTyping.SubTyping",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "TypeSafe",
+            "request": "launch",
+            "mainClass": "Generic.TypeSafe",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LowerBounded",
+            "request": "launch",
+            "mainClass": "Generic.Wildcard.LowerBounded",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LowerboundwildCardGeneircs",
+            "request": "launch",
+            "mainClass": "Generic.Wildcard.LowerboundwildCardGeneircs",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "NumericFunctionWildCard",
+            "request": "launch",
+            "mainClass": "Generic.Wildcard.NumericFunctionWildCard",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "UnboundWildCardGeneric",
+            "request": "launch",
+            "mainClass": "Generic.Wildcard.UnboundWildCardGeneric",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "WildcardDemo",
+            "request": "launch",
+            "mainClass": "Generic.Wildcard.WildcardDemo",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "WildcardSimpleExample",
+            "request": "launch",
+            "mainClass": "Generic.Wildcard.WildcardSimpleExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "upperboundwildcardGenerics",
+            "request": "launch",
+            "mainClass": "Generic.Wildcard.upperboundwildcardGenerics",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "JUnit.calculator.Calculator",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Javadocs.Main",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "PerformanceTest",
+            "request": "launch",
+            "mainClass": "MeasuringAlgorithmEfficienyChapter19.PerformanceTest",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "AbstractionExample",
+            "request": "launch",
+            "mainClass": "OOP.Abstraction.AbstractionExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "CircleAgg",
+            "request": "launch",
+            "mainClass": "OOP.Aggregation.CircleAgg",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeAggregation",
+            "request": "launch",
+            "mainClass": "OOP.Aggregation.EmployeeAggregation",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "OOP.Encapsulation.Main",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BabyDog1",
+            "request": "launch",
+            "mainClass": "OOP.Inheritance.BabyDog1",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Programmer",
+            "request": "launch",
+            "mainClass": "OOP.Inheritance.Programmer",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "OOP.Inheritance.Test",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Boy",
+            "request": "launch",
+            "mainClass": "OOP.Polymorphim.Boy",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Car(1)",
+            "request": "launch",
+            "mainClass": "OOP.Polymorphim.Car",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Mountain",
+            "request": "launch",
+            "mainClass": "OOP.Polymorphim.Mountain",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "PolymorphismExample",
+            "request": "launch",
+            "mainClass": "OOP.Polymorphim.PolymorphismExample",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StaticBinding",
+            "request": "launch",
+            "mainClass": "OOP.Polymorphim.StaticBinding",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilderEg",
+            "request": "launch",
+            "mainClass": "OOP.StringBuilderandBuffer.StringBuilderEg",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilderVSStringBufferSpeed",
+            "request": "launch",
+            "mainClass": "OOP.StringBuilderandBuffer.StringBuilderVSStringBufferSpeed",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Test(1)",
+            "request": "launch",
+            "mainClass": "OOP.StringBuilderandBuffer.Test",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Message",
+            "request": "launch",
+            "mainClass": "OOP.lab.Message",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Recursion.Factorial",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Recursion.Fibonacci",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteRecursion",
+            "request": "launch",
+            "mainClass": "Recursion.InfiniteRecursion",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LargeFactorial",
+            "request": "launch",
+            "mainClass": "Recursion.LargeFactorial",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "Recursion.LinkedList.Main",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LogicBehindRecursion",
+            "request": "launch",
+            "mainClass": "Recursion.LogicBehindRecursion",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "PowerFunction",
+            "request": "launch",
+            "mainClass": "Recursion.PowerFunction",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "Recursion.Recursion",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "StringRecursiveReversal",
+            "request": "launch",
+            "mainClass": "Recursion.StringRecursiveReversal",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "ArrayStructures",
+            "request": "launch",
+            "mainClass": "Sorting.ArrayStructures",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "Sorting.BinarySearch",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Sorting.BubbleSort",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "BucketSort",
+            "request": "launch",
+            "mainClass": "Sorting.BucketSort",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "HeapSort",
+            "request": "launch",
+            "mainClass": "Sorting.HeapSort",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "Sorting.InsertionSort",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "Sorting.LinearSearch",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "Sorting.MergeSort",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "PerformanceTest(1)",
+            "request": "launch",
+            "mainClass": "Sorting.PerformanceTest",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "Sorting.QuickSort",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "Sorting.SelectionSort",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "TestSort3",
+            "request": "launch",
+            "mainClass": "Sorting.TestSort3",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "com.company.Main",
+            "projectName": "IS247_78710829"
+        }
+    ]
+}
