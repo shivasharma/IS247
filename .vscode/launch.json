@@ -5,13 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "classwork.chapter11.test",
+            "projectName": "IS247_78710829"
+        },
+        {
             "name": "Attach to Chrome",
             "port": 9222,
             "request": "attach",
             "type": "chrome",
             "webRoot": "${workspaceFolder}"
         },
-
         {
             "type": "java",
             "name": "Current File",
