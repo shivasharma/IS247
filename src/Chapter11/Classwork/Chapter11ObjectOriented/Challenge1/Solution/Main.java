@@ -1,6 +1,5 @@
-package Chapter11ObjectOriented.Challenge1.Solution;
+package Chapter11.Classwork.Chapter11ObjectOriented.Challenge1.Solution;
 
-import Chapter11.Classwork.Chapter11ObjectOriented.Challenge1.Solution.Employee;
 
 public class Main {
     public static void main(String[] args) {

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Chapter11.Classwork.Chapter11ObjectOriented.Challenge2.Solution.Main",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Chapter11.Classwork.Chapter11ObjectOriented.Challenge1.Solution.Main",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "classwork.chapter11.test",
