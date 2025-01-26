@@ -1,4 +1,4 @@
-package Chapter11ObjectOriented.Challenge2.Solution;
+package Chapter11.Classwork.Chapter11ObjectOriented.Challenge2.Solution;
 
 public class Main {
 
