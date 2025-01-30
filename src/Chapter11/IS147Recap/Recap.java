@@ -2,7 +2,6 @@ package Chapter11.IS147Recap;
 
 // Class definition
 public class Recap {
-
     // Main method (entry point of the program)
     public static void main(String[] args) {
 
