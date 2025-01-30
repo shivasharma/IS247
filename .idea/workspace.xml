@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="Added code">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge1/Challenge/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge1/Challenge/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge1/ReadME.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge1/Solution/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge1/Solution/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge2/Challenge/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge2/ReadME.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge2/Solution/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/Classwork/Chapter11ObjectOriented/Challenge2/Solution/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter11/IS147Recap/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter11/IS147Recap/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter11/IS147Recap/Recap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter11/IS147Recap/Recap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -864,7 +853,7 @@
       <option name="project" value="LOCAL" />
       <updated>1510794074658</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TestHistory">
