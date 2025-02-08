@@ -10,6 +10,7 @@ public class StringParser {
 
         //Integer.parseInt(name) method returns the integer value which
         //is represented by the argument in decimal equivalent
-        // int i = Integer.parseInt("20"); This code will not throw error
+        // This code will not throw error
+        // int i = Integer.parseInt("20");
     }
 }
