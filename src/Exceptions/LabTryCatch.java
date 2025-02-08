@@ -22,7 +22,7 @@ public class LabTryCatch {
         }
     }
 
-        //What is the output of the code?
+    //What is the output of the code?
 
 
     public static void lab2() {
