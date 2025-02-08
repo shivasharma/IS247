@@ -8,7 +8,8 @@ public class StringParser {
 
         System.out.println(i);
 
-        //Integer.parseInt(name) method returns the integer value which is represented by the argument in decimal equivalent
+        //Integer.parseInt(name) method returns the integer value which
+        //is represented by the argument in decimal equivalent
         // int i = Integer.parseInt("20"); This code will not throw error
     }
 }
