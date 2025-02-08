@@ -12,13 +12,13 @@ public class Exceptions {
             int result = i / (j - 2);
             System.out.println(result);
         } catch (Exception e) {
-            //System.out.println(e.fillInStackTrace());
-            //System.out.println("Error" + e.getMessage());
-            // System.out.println("Error" + e + " cannot divide by zero");
-            // This line will show exactly what went wrong
-            e.printStackTrace();
+     //System.out.println(e.fillInStackTrace());
+     //System.out.println("Error" + e.getMessage());
+     // System.out.println("Error" + e + " cannot divide by zero");
+     // This line will show exactly what went wrong
+     e.printStackTrace();
         } finally {
-            System.out.println("Finally block executed");
+        System.out.println("Finally block executed");
         }
 
     }
