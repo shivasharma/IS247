@@ -26,7 +26,9 @@ public class MultipleCatchExample {
             //What will happen if we move this Exception in the beginning?
         } catch (Exception e) {
             System.err.println("This will handel all type of exception" + e);
-
+        } catch(NumberFormatException | NullPointerException e){
+           System.err.println("This will handle multiple exception" );
         }
+        
     }
 }
