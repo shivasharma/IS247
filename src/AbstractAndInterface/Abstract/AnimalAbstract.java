@@ -1,3 +1,11 @@
+
+// Main class
+public class AnimalAbstract {
+    public static void main(String[] args) {
+        Dog myDog = new Dog();  // Create a Dog object
+        myDog.makeSound();  // Calls the implemented method
+        myDog.sleep();  // Calls the inherited method
+    }
 // Abstract class
 abstract class Animal {
     // Abstract method (does not have a body)
@@ -17,11 +25,4 @@ class Dog extends Animal {
     }
 }
 
-// Main class
-public class AnimalAbstract {
-    public static void main(String[] args) {
-        Dog myDog = new Dog();  // Create a Dog object
-        myDog.makeSound();  // Calls the implemented method
-        myDog.sleep();  // Calls the inherited method
-    }
 }
