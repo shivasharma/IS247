@@ -12,7 +12,7 @@ public class NotificationService {
             //some logic here
         }
         //what will happend if in future we need to add another notification method for e.g. sendOPT via whatsapp,twitter,instagram etc..
-        //Do we modify this code?( This code should not change)
+        //Do we modify this code?
         
     }
 }
