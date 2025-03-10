@@ -16,7 +16,21 @@ public class LinkedListExamples {
 
         orders.removeFirst();
         orders.removeLast();
+        
+        orders.remove(0);
+        orders.remove(Integer.valueOf("order 3"));
+                             
         System.out.println(orders);
+
+        //use deque 
+
+        orders.offer(1)
+        System.out.println(orders.poll());
+
+
+  
+        
+        
 
     }
 
