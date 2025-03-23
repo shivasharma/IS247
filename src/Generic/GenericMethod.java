@@ -1,5 +1,8 @@
 public class Main {
     // A generic method
+   // <T> before the return type indicates that this is a generic method.
+  //The method printArray can accept an array of any type (Integer, String, etc.).
+    
     public static <T> void printArray(T[] array) {
         for (T element : array) {
             System.out.print(element + " ");
