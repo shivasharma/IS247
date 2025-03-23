@@ -33,3 +33,17 @@ public class LowerBoundWildcardExample {
         // addNumbers(strings); // Compilation error
     }
 }
+/*
+Key Points About Lower-Bounded Wildcards
+Write Access:
+Lower-bounded wildcards are typically used for writing to a collection.
+You can add elements of the lower-bound type or its subtypes to the collection.
+Read Access:
+You can read from the collection, but the elements are treated as Object.
+
+List<? super Integer> list = new ArrayList<Number>();
+list.add(10); // Valid: Adding is allowed
+// Integer num = list.get(0); // Invalid: Reading returns Object
+Object obj = list.get(0); // Valid: Reading as Object
+
+*/
