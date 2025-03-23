@@ -30,9 +30,12 @@ public class SubTyping {
 
         // Example 6: Valid subtyping with the same type argument
         List<Integer> l2 = new ArrayList<Integer>(); // Valid: ArrayList<Integer> is a subtype of List<Integer>
-
-
-                   
+/*
+        List<Integer> intList = new ArrayList<>();
+        List<Number> numList = intList; // If this were allowed...
+        numList.add(10.5); // This would break type safety, as intList is supposed to hold only Integers
+        To avoid such issues, Java enforces invariance for generic types.
+  */                 
     }
 }
 
