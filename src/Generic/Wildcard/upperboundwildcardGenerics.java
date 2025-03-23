@@ -32,3 +32,7 @@ public class UpperBoundWildcardExample {
         // System.out.println("Sum of strings: " + sumOfList(strings)); // Compilation error
     }
 }
+/*
+In Java (and object-oriented programming in general), the terms subtype and supertype are closely related to the concepts of child class (subclass) and parent class (superclass). 
+However, these terms are broader and also apply to interfaces and other type relationships.
+*/
