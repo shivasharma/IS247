@@ -16,9 +16,10 @@ class Store<T> {
 public class Max {
 
     public static void main(String[] args) {
-        Store store0 = new Store();
+        Store store0 = new Store(); // creates a raw type. The compiler treats T as Object.
         store0.setItem(10);
-        Integer item = (Integer) store0.getItem();
+         // This compiles but can cause ClassCastException at runtime
+        Integer item = (Integer) store0.getItem(); //unsafe cast
         // Integer item=store0.getItem(); what is wrong with this code?
         System.out.println("using raw type:" + item);
 
