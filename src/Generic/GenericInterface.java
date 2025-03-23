@@ -3,7 +3,8 @@ Key Points:
 Generics allow you to write flexible, reusable, and type-safe code.
 You can use generics with classes, methods, and interfaces.
 The type parameter (T, K, V, etc.) is a placeholder for any type.
-Generics are widely used in Java collections like ArrayList, HashMap, etc., to make them work with any data type.
+Generics are widely used in Java collections like ArrayList, HashMap, etc.
+to make them work with any data type.
 */
 // A generic interface
 //Pair<K, V> is a generic interface with two type parameters (K for key, V for value).
