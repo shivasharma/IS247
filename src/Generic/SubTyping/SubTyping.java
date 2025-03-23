@@ -5,26 +5,34 @@ import java.util.List;
 
 public class SubTyping {
     public static void main(String[] args) {
+        // Example 1: Simple subtyping with non-generic types
         Object o = new Object();
         Integer i = Integer.valueOf(11);
-        o = i;
+        o = i; // Valid: Integer is a subtype of Object
 
+        // Example 2: Subtyping with generics
         List<Number> list = new ArrayList<>();
-        list.add(Integer.valueOf(10));
-        list.add(Double.valueOf(10.5));
-        // list.add("Hello");
+        list.add(Integer.valueOf(10)); // Valid: Integer is a subtype of Number
+        list.add(Double.valueOf(10.5)); // Valid: Double is a subtype of Number
+        // list.add("Hello"); // Invalid: String is not a subtype of Number
 
+        // Example 3: Subtyping with custom generic classes
         List<Box<Integer>> bList = new ArrayList<>();
-        bList.add(new Box(List.of(1, 2, 4)));
-        bList.add(new SquareBox<>(List.of(1, 2, 3))); //squarebox is a subtype of Box
-        //Both parent and child should have same type argument.
-        List<Number> l0 = new ArrayList<Number>();
-        //ArryaList is a subtype of list
-        // is ArrayList<Integer> subtype of list<Number>????
-        //can I use this line?
-        // List<Number> li=new ArrayList<Integer>();
-        //ArrayList<Number> li=new ArrayList<Integer>();
-        // Both type argument must be the same
-        List<Integer> l2 = new ArrayList<Integer>();
+        bList.add(new Box<>(List.of(1, 2, 4))); // Valid: Box<Integer> is added
+        bList.add(new SquareBox<>(List.of(1, 2, 3))); // Valid: SquareBox<Integer> is a subtype of Box<Integer>
+
+        // Example 4: Generic type invariance
+        List<Number> l0 = new ArrayList<Number>(); // Valid: ArrayList<Number> is a subtype of List<Number>
+
+        // Example 5: Invalid subtyping with generics
+        // List<Number> li = new ArrayList<Integer>(); // Invalid: ArrayList<Integer> is not a subtype of List<Number>
+        // ArrayList<Number> li = new ArrayList<Integer>(); // Invalid: ArrayList<Integer> is not a subtype of ArrayList<Number>
+
+        // Example 6: Valid subtyping with the same type argument
+        List<Integer> l2 = new ArrayList<Integer>(); // Valid: ArrayList<Integer> is a subtype of List<Integer>
+
+
+                   
     }
 }
+
