@@ -1,66 +1,34 @@
 package Generic.Wildcard;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class upperboundwildcardGenerics {
+public class UpperBoundWildcardExample {
+
+    // Method to calculate the sum of a list of numbers
+    public static double sumOfList(List<? extends Number> list) {
+        double sum = 0.0;
+        for (Number num : list) {
+            sum += num.doubleValue(); // Use Number's doubleValue() method
+        }
+        return sum;
+    }
 
     public static void main(String[] args) {
-        List<Integer> li = Arrays.asList(1, 2, 3);
-        System.out.println("sum = " + sumOfList(li));
+        // Create a list of integers
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
+        System.out.println("Sum of integers: " + sumOfList(integers)); // Works: Integer is a subtype of Number
 
-        upperBound();
+        // Create a list of doubles
+        List<Double> doubles = Arrays.asList(1.1, 2.2, 3.3);
+        System.out.println("Sum of doubles: " + sumOfList(doubles)); // Works: Double is a subtype of Number
 
-        //  List<String> s1 = Arrays.asList("a", "b", "c");
-        //  System.out.println("sum = " + sumOfList(s1));
+        // Create a list of floats
+        List<Float> floats = Arrays.asList(1.5f, 2.5f, 3.5f);
+        System.out.println("Sum of floats: " + sumOfList(floats)); // Works: Float is a subtype of Number
 
-        // WildcardExamples();
-    }
-
-    private static void showAll(List<? extends Number> list) {
-        // list.add(new Double(2.4)); //we cannot add using upper bound it does not know what kind of number is that
-        for (Number n : list) {
-            System.out.println(n);
-        }
-    }
-
-    private static void upperBound() {
-        List<? extends Number> n1 = new ArrayList<Integer>();
-        List<? extends Number> n2 = new ArrayList<Double>();
-        List<? extends Number> n3 = new ArrayList<Float>();
-        //List<? extends Number> n4 = new ArrayList<String>(); //string is not a subtype of a number
-        //List<Integer> nums=new ArrayList<>();
-
-        showAll(Arrays.asList(1, 2, 3));
-        showAll(Arrays.asList(1.2f, 2.5f, 3.4f));
-        showAll(Arrays.asList(1.5d, 2.5d, 3.5d));//we can read the subtype
-        System.out.println(sumOfList(Arrays.asList(1, 3, 4, 5)));
-    }
-    private static void WildcardExamples() {
-        test(new ArrayList<TestClass>());
-        test(new ArrayList<Integer>());
-        test(new ArrayList<Object>());
-        test2(new ArrayList<Integer>());
-        test2(new ArrayList<TestClass>());
-    }
-
-    //List <? extend Number> means it is bounded and that extends from number only
-    public static double sumOfList(List<? extends Number> list) {
-        double s = 0.0;
-        for (Number n : list)
-            s += n.doubleValue();
-        return s;
-    }
-
-    static void test(ArrayList<?> myList) {
-        System.out.println("This Arraylist<?> method called");
-    }
-
-    static void test2(ArrayList<? extends Object> myList) {
-        System.out.println("This ArrayList<? extends Object method called");
-    }
-
-    class TestClass {
+        // Invalid: String is not a subtype of Number
+        // List<String> strings = Arrays.asList("A", "B", "C");
+        // System.out.println("Sum of strings: " + sumOfList(strings)); // Compilation error
     }
 }
