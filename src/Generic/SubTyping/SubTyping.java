@@ -35,7 +35,17 @@ public class SubTyping {
         List<Number> numList = intList; // If this were allowed...
         numList.add(10.5); // This would break type safety, as intList is supposed to hold only Integers
         To avoid such issues, Java enforces invariance for generic types.
-  */                 
+  */      
+
+        /*
+        Subtyping in Java allows a subtype to be used wherever a supertype is expected.
+
+With generics, subtyping is invariant: List<Integer> is not a subtype of List<Number>.
+
+Custom generic classes can have subtyping relationships if they share the same type argument.
+
+Use wildcards (? extends or ? super) to achieve flexible subtyping with generics.
+        */
     }
 }
 
