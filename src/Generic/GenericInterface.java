@@ -7,7 +7,8 @@ Generics are widely used in Java collections like ArrayList, HashMap, etc.
 to make them work with any data type.
 */
 // A generic interface
-//Pair<K, V> is a generic interface with two type parameters (K for key, V for value).
+//Pair<K, V> is a generic interface with two type parameters
+//(K for key, V for value).
 
 interface Pair<K, V> {
     K getKey();
