@@ -1,34 +1,35 @@
 package Generic.Wildcard;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LowerBounded {
-    public static void showAll(List<? super Number> list) {
-        for (Object num : list) {
-            System.out.println(num);
-        }
+public class LowerBoundWildcardExample {
+
+    // Method to add integers to a list of Integer or its supertypes
+    public static void addNumbers(List<? super Integer> list) {
+        list.add(1); // Valid: Can add Integer to List<Integer>, List<Number>, or List<Object>
+        list.add(2);
+        list.add(3);
     }
 
     public static void main(String[] args) {
-        List<? super Integer> l1 = new ArrayList<Integer>();
-        List<? super Integer> l2 = new ArrayList<Number>();
+        // Create a list of integers
+        List<Integer> integers = new ArrayList<>();
+        addNumbers(integers); // Valid: List<Integer> is compatible with List<? super Integer>
+        System.out.println("Integers: " + integers);
 
-        //insert item in lower bound
-        List<? super Number> l3 = new ArrayList<>();
-        l3.add(3);
-        l3.add(3.5);
-        l3.add(3);
+        // Create a list of numbers
+        List<Number> numbers = new ArrayList<>();
+        addNumbers(numbers); // Valid: List<Number> is compatible with List<? super Integer>
+        System.out.println("Numbers: " + numbers);
 
-        //how to read items using lower bound
-        //check  Numberclass
-        List<Serializable> list = new ArrayList<>();
-        list.add(1);
-        list.add("IS247");
-        list.add(1.5d);
-        showAll(list);
+        // Create a list of objects
+        List<Object> objects = new ArrayList<>();
+        addNumbers(objects); // Valid: List<Object> is compatible with List<? super Integer>
+        System.out.println("Objects: " + objects);
 
-
+        // Invalid: List<String> is not compatible with List<? super Integer>
+        // List<String> strings = new ArrayList<>();
+        // addNumbers(strings); // Compilation error
     }
 }
