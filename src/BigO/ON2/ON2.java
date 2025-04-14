@@ -48,6 +48,7 @@ public class ON2 {
             }
         }
     }
+    /*
 //Time Complexity:
 First loop: O(n²) (same nested loop as above)
 
@@ -56,4 +57,5 @@ Second loop: O(n)
 Combined: O(n² + n)
 
 Big O Simplified: Drop the smaller term → O(n²)
+    */
 }
