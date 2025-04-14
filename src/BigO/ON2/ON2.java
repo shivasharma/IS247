@@ -8,7 +8,25 @@ public class ON2 {
        if n was 1 then it is 1*1  if n is 2 2*2
        For every iteration of outer loop the inner loop iterate n times
        n*n
+
+           /
+    //Time Complexity:
+    First loop: O(n²) (same nested loop as above)
+    Second loop: O(n)
+    Combined: O(n² + n)
+    Big O Simplified: Drop the smaller term → O(n²)
+
+
+   nestedForLoop(n)	O(n²)	Classic nested loop
+   nestedForLoopAndNonNested(n)	O(n²)	O(n² + n) simplifies to O(n²)
+   nestedForLoophalfdivide(n)	❌ Infinite loop	Due to incorrect loop condition
+
+
+    
      */
+
+
+    
     public static void main(String[] args) {
         nestedForLoop(2);
     }
@@ -48,14 +66,5 @@ public class ON2 {
             }
         }
     }
-    /*
-//Time Complexity:
-First loop: O(n²) (same nested loop as above)
 
-Second loop: O(n)
-
-Combined: O(n² + n)
-
-Big O Simplified: Drop the smaller term → O(n²)
-    */
 }
