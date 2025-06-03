@@ -11,7 +11,7 @@ public class UnauthorizedException extends Exception {
         super(message);
     }
 
-    //override the Exception class method that takes tow arguments  string message and Throwable throwable
+    //override the Exception class method that takes two arguments  string message and Throwable throwable
 
     public static void main(String[] main) {
         UnauthorizedException un = new UnauthorizedException();
