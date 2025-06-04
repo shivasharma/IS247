@@ -9,6 +9,6 @@ public class ArrayoutofBoundException {
             System.out.println(ar[i]);
         }
         //What will happen to this print statement?
-        System.out.println("The above code throws error");
+        System.out.println("The above code throws an error");
     }
 }
