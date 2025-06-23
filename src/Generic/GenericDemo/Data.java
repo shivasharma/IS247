@@ -19,10 +19,9 @@ public class Data {
 
 
     public static void main(String[] args) {
-        //Data d1=new Data(12);
-        // System.out.println(d1.getData());
+        Data d1=new Data(12);
+     System.out.println(d1.getData());
     }
-
     /*
     //What will happend is we replace this with Object datatype
     // How do we handle if we need float/double/integer/String
