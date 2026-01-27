@@ -3,7 +3,7 @@ package Generic.Wildcard;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LowerBoundWildcardExample {
+class LowerBoundWildcardExample {
 
     // Method to add integers to a list of Integer or its supertypes
     public static void addNumbers(List<? super Integer> list) {

@@ -1,4 +1,4 @@
-package OOP.Polymorphim;
+package OOP.Abstraction.Polymorphim;
 
 // Base class for all vehicles
 class Vehicle {

@@ -1,17 +1,19 @@
+package Generic;
+
 // A generic class
 class Box<T> {
     private T item;
 
-    public void setItem(T item) {
-        this.item = item;
-    }
-
     public T getItem() {
         return item;
     }
+
+    public void setItem(T item) {
+        this.item = item;
+    }
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         // Create a Box for Integer
         Box<Integer> integerBox = new Box<>();

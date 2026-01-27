@@ -1,7 +1,9 @@
+package Collections.Array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayVsArrayList {
+class ArrayVsArrayList {
 
   public static void main(String[] args) {
     

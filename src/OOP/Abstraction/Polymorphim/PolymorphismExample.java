@@ -1,4 +1,4 @@
-package OOP.Polymorphim;
+package OOP.Abstraction.Polymorphim;
 
 class Animal {
     public void sound() {

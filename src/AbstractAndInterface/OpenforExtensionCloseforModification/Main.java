@@ -1,3 +1,5 @@
+package AbstractAndInterface.OpenforExtensionCloseforModification;
+
 // Step 1: Create an interface for Notification
 interface Notification {
     void sendOTP();
@@ -34,7 +36,7 @@ class NotificationService {
 }
 
 // Step 5: Test the OCP-compliant code
-public class OCPExample {
+class OCPExample {
     public static void main(String[] args) {
         NotificationService service = new NotificationService();
 

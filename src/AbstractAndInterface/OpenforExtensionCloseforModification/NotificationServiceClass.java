@@ -1,6 +1,6 @@
 package AbstractAndInterface.OpenforExtensionCloseforModification;
 
-public class NotificationService {
+class NotificationServiceClass {
 //Open-Closed Princlple (OCP) => The open-closed principle states that according to new requirements
 // the module should be open for extension but closed for modification
 

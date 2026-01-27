@@ -1,7 +1,8 @@
+package AbstractAndInterface.Abstract;
 
 // Main class
 public class AnimalAbstract {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Dog myDog = new Dog();  // Create a Dog object
         myDog.makeSound();  // Calls the implemented method
         myDog.sleep();  // Calls the inherited method

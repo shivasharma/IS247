@@ -1,6 +1,7 @@
+package OOP.Abstraction.Polymorphim;
 
 // Book class (Parent class)
-public class Book {
+class Book {
     // Properties
     String title;
     String author;
@@ -47,7 +48,7 @@ class EBook extends Book {
 }
 
 // Main class to test the Book and EBook classes
-public class Main {
+class Main {
     public static void main(String[] args) {
         // Create a Book object
         Book book = new Book("The Great Gatsby", "F. Scott Fitzgerald");

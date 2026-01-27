@@ -1,4 +1,4 @@
-package OOP.Polymorphim;
+package OOP.Abstraction.Polymorphim;
 
 /**
  * Created by Shiva on 7/29/2017.

@@ -3,7 +3,7 @@ package Generic.Wildcard;
 import java.util.Arrays;
 import java.util.List;
 
-public class UpperBoundWildcardExample {
+class UpperBoundWildcardExample {
 
     // Method to calculate the sum of a list of numbers
     public static double sumOfList(List<? extends Number> list) {

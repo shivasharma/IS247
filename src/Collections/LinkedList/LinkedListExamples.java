@@ -24,7 +24,7 @@ public class LinkedListExamples {
 
         //use deque 
 
-        orders.offer(1)
+        // orders.offer(1);
         System.out.println(orders.poll());
 
 

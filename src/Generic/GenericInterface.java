@@ -1,3 +1,4 @@
+
 /*
 Key Points:
 Generics allow you to write flexible, reusable, and type-safe code.
@@ -15,11 +16,16 @@ interface Pair<K, V> {
     V getValue();
 }
 
-// A class implementing the generic 
+public static void main(String[] args) {
+        Pair<String, Integer> pair = new OrderedPair<>("Age", 25);
+        System.out.println("Key: " + pair.getKey() + ", Value: " + pair.getValue());
+    }
+
+// A class implementing the generic
 //OrderedPair implements the Pair interface and works with any types for K and V.
-class OrderedPair<K, V> implements Pair<K, V> {
-    private K key;
-    private V value;
+static class OrderedPair<K, V> implements Pair<K, V> {
+    private final K key;
+    private final V value;
 
     public OrderedPair(K key, V value) {
         this.key = key;
@@ -30,9 +36,3 @@ class OrderedPair<K, V> implements Pair<K, V> {
     public V getValue() { return value; }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Pair<String, Integer> pair = new OrderedPair<>("Age", 25);
-        System.out.println("Key: " + pair.getKey() + ", Value: " + pair.getValue());
-    }
-}

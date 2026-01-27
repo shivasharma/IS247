@@ -1,4 +1,4 @@
-
+package Generic.TypeInterfaceEg;
 
 /* Start */
 //1. Generic Interface and Class

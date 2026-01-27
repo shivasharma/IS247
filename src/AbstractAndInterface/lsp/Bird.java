@@ -1,11 +1,9 @@
-class Bird {
+package AbstractAndInterface.lsp;
+
+public class Bird {
     void fly() {
         System.out.println("This bird is flying...");
     }
-}
-
-class Sparrow extends Bird {
-    // Sparrow can fly, so this works fine
 }
 
 class Penguin extends Bird {

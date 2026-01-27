@@ -19,7 +19,7 @@ public class Data {
 
 
     public static void main(String[] args) {
-        Data d1=new Data(12);
+        Data d1 = new Data("test");
      System.out.println(d1.getData());
     }
     /*

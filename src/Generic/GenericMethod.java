@@ -1,4 +1,6 @@
-public class Main {
+package Generic;
+
+class MainGeneric {
     // A generic method
    // <T> before the return type indicates that this is a generic method.
   //The method printArray can accept an array of any type (Integer, String, etc.).
