@@ -5,7 +5,7 @@ public class SalesLeadTracker {
 
     public static void main(String[] args) {
 
-        
+       
         var person1 = new SalesPerson("Tracy", null,
                 "Westbay", LocalDate.of(1985,1,1),
                 "tracy@example.com",null);
