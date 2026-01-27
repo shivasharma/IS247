@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SalesLeadTracker",
+            "request": "launch",
+            "mainClass": "SalesLeadTracker",
+            "projectName": "IS247_78710829"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Chapter11.Classwork.Chapter11ObjectOriented.Challenge2.Solution.Main",
