@@ -5,33 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cd2695d-7ebf-4df8-8ce9-60ae3bd13a17" name="Default" comment="Added code">
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Solution/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Solution/PersonBuilderMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractAndInterface/Abstract/AnimalAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAndInterface/Abstract/AnimalAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractAndInterface/OpenforExtensionCloseforModification/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAndInterface/OpenforExtensionCloseforModification/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractAndInterface/OpenforExtensionCloseforModification/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAndInterface/OpenforExtensionCloseforModification/NotificationServiceClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractAndInterface/lsp/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAndInterface/lsp/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractAndInterface/lsp/Birdsolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAndInterface/lsp/BirdsolutionFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractAndInterface/lsp/LSPBirdExample .java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAndInterface/lsp/LSPBirdExample .java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/Array/ArrayVSArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Array/ArrayVSArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/LinkedList/LinkedListExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/LinkedList/LinkedListExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Builder Pattern/Problem/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAndInterface/lsp/Sparrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Builder Pattern/Problem/SalesLeadTracker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Builder Pattern/Problem/SalesPerson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/ExceptionHandling/MultipleCatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ExceptionHandling/MultipleCatchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Problem/SalesLeadTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Problem/SalesLeadTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Problem/SalesPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Problem/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Generic/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/GenericClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generic/GenericDemo/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/GenericDemo/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generic/GenericInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/GenericInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generic/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/GenericMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generic/TypeInterfaceEg/GenericInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/TypeInterfaceEg/GenericInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generic/Wildcard/LowerBounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/Wildcard/LowerBounded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generic/Wildcard/upperboundwildcardGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generic/Wildcard/upperboundwildcardGenerics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphim/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Abstraction/Polymorphim/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphim/BookPolymorphim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Abstraction/Polymorphim/BookPolymorphim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphim/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Abstraction/Polymorphim/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphim/DynamicBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Abstraction/Polymorphim/DynamicBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphim/PolymorphismExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Abstraction/Polymorphim/PolymorphismExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphim/StaticBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Abstraction/Polymorphim/StaticBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,6 +315,7 @@
     "Application.MultipleCatchExample.executor": "Run",
     "Application.OCPExample.executor": "Run",
     "Application.OOP.Abstraction.Polymorphim.Main.executor": "Run",
+    "Application.PersonBuilderMain.executor": "Debug",
     "Application.PolymorphismExample.executor": "Run",
     "Application.Recap (1).executor": "Run",
     "Application.Recap (2).executor": "Run",
@@ -387,7 +367,7 @@
       <recent name="Recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SalesLeadTracker">
+  <component name="RunManager" selected="Application.PersonBuilderMain">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -454,12 +434,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP.Abstraction.Polymorphim.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Abstraction.Polymorphim.Main" />
+    <configuration name="PersonBuilderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.BuilderPattern.Solution.PersonBuilderMain" />
       <module name="IS247" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Abstraction.Polymorphim.*" />
+          <option name="PATTERN" value="DesignPattern.BuilderPattern.Solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -524,20 +504,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PersonBuilderMain" />
       <item itemvalue="Application.BirdsolutionFile" />
       <item itemvalue="Application.MainGeneric" />
       <item itemvalue="Application.MultipleCatchExample" />
-      <item itemvalue="Application.OOP.Abstraction.Polymorphim.Main" />
       <item itemvalue="Application.SalesLeadTracker" />
       <item itemvalue="JUnit.JUnit in IS247" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonBuilderMain" />
         <item itemvalue="Application.SalesLeadTracker" />
         <item itemvalue="Application.MultipleCatchExample" />
         <item itemvalue="Application.BirdsolutionFile" />
         <item itemvalue="Application.MainGeneric" />
-        <item itemvalue="Application.OOP.Abstraction.Polymorphim.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -896,7 +876,7 @@
       <option name="project" value="LOCAL" />
       <updated>1510794074658</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1090,6 +1070,11 @@
           <url>file://$PROJECT_DIR$/src/JUnit/exceptionhandling/ExceptionHandlingTest.java</url>
           <line>39</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Solution/PersonBuilderMain.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

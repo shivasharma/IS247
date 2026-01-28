@@ -2,7 +2,7 @@ package DesignPattern.BuilderPattern.Problem;
 
 import java.time.LocalDate;
 
-public class SalesPerson {
+public class Person {
     private final String firstName;
     private final String middleName;
     private final String lastName;
@@ -10,8 +10,8 @@ public class SalesPerson {
     private final String emailAddress;
     private final String phoneNumber;
 
-    public SalesPerson(String firstName, String middleName, String lastName,
-                       LocalDate dateOfBirth, String emailAddress, String phoneNumber) {
+    public Person(String firstName, String middleName, String lastName,
+                  LocalDate dateOfBirth, String emailAddress, String phoneNumber) {
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;
